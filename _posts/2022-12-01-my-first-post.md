@@ -5,6 +5,7 @@ aside:
   toc: true
 pageview: true
 cover: https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/markdown.png
+publish: false
 ---
 
 # Welcome to my blog!
@@ -52,8 +53,8 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
       <td><code>
         1. First item<br />
         2. Second item<br />
-        3. Third item<br />
-      </code></td>
+        3. Third item<br /></code>
+      </td>
     </tr>
     <tr>
       <td><b>Unordered List</b></td>
@@ -61,8 +62,7 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
         <code>
           - First item<br />
           - Second item<br />
-          - Third item<br />
-        </code>
+          - Third item<br /></code>
       </td>
     </tr>
     <tr>
