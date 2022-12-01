@@ -21,8 +21,8 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
 
 ## Basic Markdown Syntax
 <html>
-<table class="table table-bordered">
-  <thead class="thead-light">
+<table>
+  <thead>
     <tr>
       <th>Element</th>
       <th>Markdown Syntax</th>
@@ -30,25 +30,25 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">Heading</a></td>
-      <td><code># H1<br />
-          ## H2<br />
+      <td><b>Heading</b></td>
+      <td><code># H1<br>
+          ## H2<br>
           ### H3</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">Bold</a></td>
+      <td><b>Bold</b></td>
       <td><code>**bold text**</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">Italic</a></td>
+      <td><b>Italic</b></td>
       <td><code>*italicized text*</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">Blockquote</a></td>
+      <td><b>Blockquote</b></td>
       <td><code>&gt; blockquote</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">Ordered List</a></td>
+      <td><b>Ordered List</b></td>
       <td><code>
         1. First item<br />
         2. Second item<br />
@@ -56,7 +56,7 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
       </code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">Unordered List</a></td>
+      <td><b>Unordered List</b></td>
       <td>
         <code>
           - First item<br />
@@ -66,19 +66,19 @@ In this moment I am writing on https://stackedit.io, a wonderful online editor f
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">Code</a></td>
+      <td><b>Code</b></td>
       <td><code>`code`</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rule</a></td>
+      <td><b>Horizontal Rule</b></td>
       <td><code>---</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#links">Link</a></td>
+      <td><b>Link</b></td>
       <td><code>[title](https://www.example.com)</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">Image</a></td>
+      <td><b>Image</b></td>
       <td><code>![alt text](image.jpg)</code></td>
     </tr>
   </tbody>
