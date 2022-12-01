@@ -1,8 +1,9 @@
 ---
 layout: page
 type: article
+title: test-page
 ---
-# title
+# this is the title
 - hi
 - ciao
 - hola
