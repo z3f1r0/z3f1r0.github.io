@@ -4,7 +4,7 @@ title: My First Post
 aside:
   toc: true
 pageview: true
-cover: /img/markdown.png
+cover: https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/markdown.png
 ---
 
 # Welcome to my blog!
