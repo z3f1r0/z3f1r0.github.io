@@ -4,6 +4,7 @@ title: My First Post
 aside:
   toc: true
 pageview: true
+cover: /img/markdown.png
 ---
 
 # Welcome to my blog!
