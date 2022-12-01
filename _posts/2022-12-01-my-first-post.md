@@ -16,5 +16,5 @@ I'd like to start writing about my passion in computers and in cybersecurity par
 ### Where I can start?
 I have to practice with markdown syntax. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) I found a very useful guide and I have to write a lot in order to memorize every special format.
 In this moment I am writing on https://stackedit.io, a wonderful online editor for markdown.
----
+
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
