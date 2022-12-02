@@ -5,7 +5,6 @@ aside:
   toc: true
 pageview: true
 cover: https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/markdown.png
-publish: false
 ---
 
 # Welcome to my blog!
