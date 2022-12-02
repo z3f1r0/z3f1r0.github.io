@@ -52,10 +52,7 @@ header:
     url: /about.html
     
   - title: ETHQuery
-    url: /2022/11/30/ethquery.html
+    url: /pages/ethquery.html
    
   - title: Github
     url: https://github.com/z3f1r0
-
-  - title: test
-    url: /pages/test.html
