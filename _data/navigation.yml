@@ -1,4 +1,7 @@
 header:
+  - title: ETHQuery
+    url: /pages/ethquery.html
+    
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -51,8 +54,3 @@ header:
       # @end locale config
     url: /about.html
     
-  - title: ETHQuery
-    url: /pages/ethquery.html
-   
-  - title: Github
-    url: https://github.com/z3f1r0
