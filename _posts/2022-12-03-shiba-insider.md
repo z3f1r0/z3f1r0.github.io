@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Shiba Insider
-sidebar:
-  nav: layouts
+aside:
+  toc: true
 cover: https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/shiba/dog.jpeg
 ---
 Below a small walkthrough about **Shiba Insider** challenge on [BTLO](https://blueteamlabs.online/).
