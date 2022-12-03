@@ -11,13 +11,15 @@ cover: https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/mark
 > #### *As the West wind, sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
 
 Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) by **kitian616**. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
-I'd like to start writing about my passion in computers and in cybersecurity particularly.
+I'd like to start writing about my passion in cybersecurity.
 
 ## Where I can start?
 I have to practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) and I should  write a lot in order to memorize every special format.
 In this moment I am writing on [https://stackedit.io](https://stackedit.io), a wonderful online editor for markdown.
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
+
+I want to make practice with markdown in order to became faster writing posts.
 
 ## Basic Markdown Syntax
 <html>
@@ -83,3 +85,27 @@ In this moment I am writing on [https://stackedit.io](https://stackedit.io), a w
   </tbody>
 </table> 
 </html>
+
+## Some examples
+
+### Code
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+You have to insert `code` inside "backticks", like this:
+```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+### Youtube video (I like this)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/x5wkIewzyNg/0.jpg)](http://www.youtube.com/watch?v=x5wkIewzyNg)
+
+To upload YouTube videos you have to write something like this:
+```
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+```
+
