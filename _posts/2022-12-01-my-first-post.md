@@ -11,7 +11,7 @@ author: z3f1r0
 # Welcome to my blog!
 > #### *As the West wind, sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
 
-Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) by **kitian616**. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
+Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) by [kitian616](https://github.com/kitian616). A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
 I'd like to start writing about my passion in cybersecurity.
 
 ## Where I can start?
@@ -109,3 +109,32 @@ To upload YouTube videos I used an extension of TeXt theame and I have to write 
 ```
 <div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 ```
+
+### Mermaid Flowchart
+
+```mermaid
+graph TB;
+    A[Do you have a problem in your life?]
+    B[Then don't worry]
+    C[Can you do something about it?]
+    A--no-->B;
+    A--yes-->C;
+    C--no-->B;
+    C--yes-->B;
+```
+```
+```mermaid
+graph TB;
+    A[Do you have a problem in your life?]
+    B[Then don't worry]
+    C[Can you do something about it?]
+    A--no-->B;
+    A--yes-->C;
+    C--no-->B;
+    C--yes-->B;
+```
+
+### Useful links
+You can found lots of tips to write in markdown at the following links:
+- https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
