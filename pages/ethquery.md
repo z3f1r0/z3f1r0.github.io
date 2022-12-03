@@ -73,7 +73,7 @@ show_title: false
                     </fieldset>
                     <br><br>
                     <input type="reset" id="reset" value="Reset">   
-                    <button type="submit" id="send_data">Submit</button>
+                    <input type="submit" id="send_data" value="Submit">
 	            </form>
                 <!-- END OF FORM -->
         </fieldset>
