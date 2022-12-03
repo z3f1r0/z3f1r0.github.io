@@ -136,6 +136,6 @@ graph TB;
 ```
 
 ### Useful links
-You can found lots of tips to write in markdown at the following links:
+You can find lots of tips to write in markdown at the following links:
 - [https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
 - [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
