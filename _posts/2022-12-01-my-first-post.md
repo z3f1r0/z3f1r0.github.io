@@ -19,7 +19,7 @@ In this moment I am writing on [https://stackedit.io](https://stackedit.io), a w
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
 
-I want to make practice with markdown in order to became faster writing posts.
+I want to make practice with markdown in order to became faster in writing posts.
 
 ## Basic Markdown Syntax
 <html>
