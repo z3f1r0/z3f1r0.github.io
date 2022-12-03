@@ -105,7 +105,7 @@ alert(s);
 
 <div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 
-To upload YouTube videos I used an extension of TeXt theame and I have to write something like this:
+To upload YouTube videos I used a [TeXt theme extension](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions#video) and I had to write something like this:
 ```
 <div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 ```
