@@ -103,10 +103,9 @@ alert(s);
 
 ### Youtube video (I like this)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/x5wkIewzyNg/0.jpg)](http://www.youtube.com/watch?v=x5wkIewzyNg)
+<div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 
-To upload YouTube videos you have to write something like this:
+To upload YouTube videos I used an extension of TeXt theame and I have to write something like this:
 ```
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
+<div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>```
 
