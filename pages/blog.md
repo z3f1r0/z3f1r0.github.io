@@ -35,6 +35,6 @@ articles:
   show_readmore: true
   show_info: true
 ---
-<script>
-  {%- include scripts/home.js -%}
-</script>
+<div class="layout--home">
+  {%- include paginator.html -%}
+</div>
