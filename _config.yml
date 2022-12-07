@@ -61,8 +61,8 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : https://github.com/z3f1r0 # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
+  root    : /pages/home.html # title link url, "/" (default)
+  home    : /pages/home.html # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
