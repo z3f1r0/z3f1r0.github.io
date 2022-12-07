@@ -38,3 +38,5 @@ articles:
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>
+
+{{ content }}
