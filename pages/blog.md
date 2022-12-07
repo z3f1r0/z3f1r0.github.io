@@ -35,8 +35,5 @@ articles:
   show_readmore: true
   show_info: true
 ---
-<script>
-  {%- include scripts/home.js -%}
-</script>
 
 {{ content }}
