@@ -37,7 +37,7 @@ author:
   name      : z3f1r0
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am a moody person.
+  bio       : Moody person.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -61,7 +61,7 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
+  root    : https://github.com/z3f1r0 # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
