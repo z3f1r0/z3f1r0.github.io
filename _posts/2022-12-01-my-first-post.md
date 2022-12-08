@@ -14,8 +14,8 @@ author: z3f1r0
 Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) by [kitian616](https://github.com/kitian616). A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
 I'd like to start writing about my passion in cybersecurity.
 
-## Where I can start?
-I have to practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) and I should  write a lot in order to memorize every special format.
+## Where can I start?
+I have to make practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) and I should  write a lot in order to memorize every special format.
 In this moment I am writing on [https://stackedit.io](https://stackedit.io), a wonderful online editor for markdown.
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
