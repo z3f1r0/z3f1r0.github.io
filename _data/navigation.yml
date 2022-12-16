@@ -67,7 +67,6 @@ layouts:
         url:    /2022/12/03/shiba-insider.html
       
 btlo:
-layouts:
   - title: Challenges
     children:
       - title:  Shiba Insider
