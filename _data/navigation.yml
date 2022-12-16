@@ -2,8 +2,8 @@ header:
   - title: Posts
     url: /
     
-  - title: X
-    url: /pages/ex.html
+  - title: ETHQuery
+    url: /pages/ethquery.html
     
   - titles:
       # @start locale config
