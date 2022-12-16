@@ -1,10 +1,8 @@
 header:
   - title: Posts
     url: /
-    
   - title: ETHQuery
     url: /pages/ethquery.html
-    
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -30,7 +28,6 @@ header:
       tr      : &TR       Arşivdekiler
       # @end locale config
     url: /archive.html
-
   - titles:
       # @start locale config
       en      : &EN       About
@@ -57,3 +54,12 @@ header:
       # @end locale config
     url: /about.html
     
+layouts:
+  - title: Layouts
+    children:
+      - title:  ETHQuery
+        url:    /page/ethquery.html
+      - title:  About
+        url:    /about.html
+      - title:  Posts
+        url:    /
