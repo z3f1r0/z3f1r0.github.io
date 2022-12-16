@@ -73,3 +73,7 @@ btlo:
         url:    /pages/btlo/challenges/shiba-insider.html
       - title:  About (Example)
         url:    /about.html
+  - title: Investigations
+    children:
+      - title: SOC
+        url:
