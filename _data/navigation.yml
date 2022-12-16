@@ -58,7 +58,7 @@ layouts:
   - title: Layouts
     children:
       - title:  ETHQuery
-        url:    /page/ethquery.html
+        url:    /pages/ethquery.html
       - title:  About
         url:    /about.html
       - title:  Posts
