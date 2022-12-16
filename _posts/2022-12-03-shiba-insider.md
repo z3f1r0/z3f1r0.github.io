@@ -3,8 +3,12 @@ layout: article
 title: Shiba Insider
 aside:
   toc: true
+sidebar:
+  nav: btlo
 cover: /img/shiba/dog.jpeg
-tags: BTLO
+tags:
+- BTLO
+- Challenges
 ---
 Below a small walkthrough about **Shiba Insider** challenge on [BTLO](https://blueteamlabs.online/).
 
