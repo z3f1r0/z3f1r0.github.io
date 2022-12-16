@@ -65,3 +65,12 @@ layouts:
         url:    /
       - title:  Shiba Insider
         url:    /2022/12/03/shiba-insider.html
+      
+btlo:
+layouts:
+  - title: Challenges
+    children:
+      - title:  Shiba Insider
+        url:    /pages/btlo/challenges/shiba-insider.html
+      - title:  About (Example)
+        url:    /about.html
