@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Malware Analisys - Ransomware
+title: Memory Analisys - Ransomware
 aside:
   toc: true
 sidebar:
