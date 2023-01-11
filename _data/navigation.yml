@@ -71,8 +71,8 @@ btlo:
     children:
       - title:  Shiba Insider
         url:    /pages/btlo/challenges/shiba-insider.html
-      - title:  About (Example)
-        url:    /about.html
+      - title:  Memory Analysis - Ransomware
+        url:    /pages/btlo/challenges/Memory Analysis - Ransomware.html
   - title: Investigations
     children:
       - title: SOC
