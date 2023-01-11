@@ -7,7 +7,7 @@ aside:
   toc: true
 sidebar:
   nav: btlo
-cover: /img/***
+cover: /img/memoryanalysis-ransomware/wanna.png
 tags:
 - BTLO
 - Challenges
@@ -23,7 +23,7 @@ To complete this challenge I used [volatility](https://github.com/volatilityfoun
 In Volatility 3 `--profile` option was deprecated so you can execute it directly this: 
 `python3 ./vol.py /f infected.vmem windows.psscan`
 
-![[Pasted image 20230110172059.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/memoryanalysis-ransomware/Pasted%20image%2020230110172059.png)
 
 ### Q2. What is the parent process ID for the suspicious process?
 
@@ -37,7 +37,7 @@ It has the same **PID** of the previous **PPID**: `or4qtckT.exe`
 
 For Volatility 3, I launched `python3 ./vol.py -f infected.vmem windows.psscan | grep 2732` and below there is the output.
 
-![[Pasted image 20230110173257.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/memoryanalysis-ransomware/Pasted%20image%2020230110173257.png)
 
 `taskdl.exe` was the process used to delete files.
 
@@ -45,8 +45,7 @@ For Volatility 3, I launched `python3 ./vol.py -f infected.vmem windows.psscan |
 
 You can just launch `python3 ./vol.py -f infected.mem windows.dlllist | grep or4qtckT.exe` and you will find the path where it was first executed.
 
-![[Pasted image 20230110174032.png]]
-
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/memoryanalysis-ransomware/Pasted%20image%2020230110174032.png)
 
 ### Q6. Can you identify what ransomware it is? (Do your research!)
 
@@ -56,5 +55,4 @@ By now it's simple understand what kind of ransomware is it: **WannaCry**.
 
 To asnswer this question I launched `python3 ./vol.py -f infected.mem windows.filescan | grep .eky` and I found the filename of the key.
 
-![[Pasted image 20230110174439.png]]
-
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/memoryanalysis-ransomware/Pasted%20image%2020230110174439.png)
