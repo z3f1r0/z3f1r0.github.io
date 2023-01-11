@@ -18,8 +18,8 @@ To complete this challenge I used [volatility](https://github.com/volatilityfoun
 
 ### Q1. Run “vol.py -f infected.vmem --profile=Win7SP1x86 psscan” that will list all processes. What is the name of the suspicious process?
 
-In Volatility 3 `--profile` option was deprecated so you can execute it directly this: 
-`python3 ./vol.py /f infected.vmem windows.psscan`
+In Volatility 3 `--profile` option was deprecated so you can execute it directly like this: 
+`python3 ./vol.py -f infected.vmem windows.psscan`
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/memoryanalysis-ransomware/Pasted%20image%2020230110172059.png)
 
