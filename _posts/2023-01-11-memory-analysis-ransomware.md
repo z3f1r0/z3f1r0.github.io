@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Memory Analisys - Ransomware
+title: Memory Analysis - Ransomware
 aside:
   toc: true
 sidebar:
