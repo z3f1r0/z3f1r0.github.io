@@ -48,7 +48,7 @@ You can just launch `python3 ./vol.py -f infected.mem windows.dlllist | grep or4
 
 ### Q6. Can you identify what ransomware it is? (Do your research!)
 
-By now it's simple understand what kind of ransomware is it: **WannaCry**.
+By now it's simple to understand what kind of ransomware is it: **WannaCry**.
 
 ### Q7. What is the filename for the file with the ransomware public key that was used to encrypt the private key? (.eky extension)
 
