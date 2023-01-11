@@ -69,10 +69,10 @@ layouts:
 btlo:
   - title: Challenges
     children:
-      - title:  Shiba Insider
-        url:    /pages/btlo/challenges/shiba-insider.html
       - title:  Memory Analysis - Ransomware
         url:    /2023/01/11/memory-analysis-ransomware.html
+      - title:  Test
+        url:    
   - title: Investigations
     children:
       - title: SOC
