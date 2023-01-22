@@ -30,7 +30,7 @@ Simply you can write on Google "Contact Form 7 cve" and you will find your answe
 With the following command `cat access.log | grep /plugins/ | cut -d "/" -f6 | sort | uniq` you can enumerate all the plugins in the log file. Making an internet research you can find that the only vulnerable plugin is **simple-file-list** version 4.2.2.
 
 ### Q5. What is the name of the PHP web shell file?
-You can find the name of the webshell launhing `cat access.log | grep .php` and looking for strange php files. During my analysis I found a `fr34k.php` file and it was the webshell's name.
+You can find the name of the webshell launching `cat access.log | grep .php` and looking for strange php files. During my analysis I found a `fr34k.php` file and it was the webshell's name.
 
 ### Q6. What was the HTTP response code provided when the web shell was accessed for the final time?
 You can launch `cat access.log | greap fr34k.php` and look to the final http response code: **404**
