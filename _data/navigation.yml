@@ -1,6 +1,4 @@
 header:
-  - title: Posts
-    url: /
   - title: ETHQuery
     url: /pages/ethquery.html
   - titles:
