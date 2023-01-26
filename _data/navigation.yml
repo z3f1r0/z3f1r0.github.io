@@ -72,6 +72,8 @@ btlo:
         url:    /2023/01/11/memory-analysis-ransomware.html
       - title:  Log Analysis - Compromised Wordpress
         url:    /2023/01/21/log-analysis-compromised-wordpress.html
+      - title: Network Analysis - Malware Compromise
+        url: /2023/01/26/network-analysis-malware-compromise.html
   - title: Investigations
     children:
       - title: SOC
