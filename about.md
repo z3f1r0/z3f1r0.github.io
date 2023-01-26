@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Whoami
+title: whoami
 key: page-about
 ---
 
