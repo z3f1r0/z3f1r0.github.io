@@ -15,7 +15,6 @@ author: z3f1r0
 # Scenario
 The Account Executive called the SOC earlier and sounds very frustrated and angry. He stated he can’t access any files on his computer and keeps receiving a pop-up stating that his files have been encrypted. You disconnected the computer from the network and extracted the memory dump of his machine and started analyzing it with Volatility. Continue your investigation to uncover how the ransomware works and how to stop it!
 
-`Volatility`{:.info}
 
 # Write-up
 To complete this challenge I used [volatility](https://github.com/volatilityfoundation/volatility3) tool version 3, the the world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples.
@@ -29,7 +28,7 @@ In Volatility 3 `--profile` option was deprecated so you can execute it directly
 
 ### Q2. What is the parent process ID for the suspicious process?
 
-You can answer to this question launching tha same volatylity plugin (`psscan`) and look for **PPID** column referred to the suspicious process: **2732**
+You can answer to this question launching tha same volatility plugin (`psscan`) and look for **PPID** column referred to the suspicious process: **2732**
 
 ### Q3. What is the initial malicious executable that created this process?
 
