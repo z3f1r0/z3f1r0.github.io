@@ -28,6 +28,8 @@ btlo:
         url:    /2023/01/21/log-analysis-compromised-wordpress.html
       - title: Network Analysis - Malware Compromise
         url: /2023/01/26/network-analysis-malware-compromise.html
+      - title: Network Analysis - Ransomware
+        url: /2023/01/28/network-analysis-ransomware.html  
   - title: Investigations
     children:
       - title: SOC
