@@ -45,7 +45,7 @@ I searched malware's name on Google and I found it:
 
 ## What is the name of the ransomware?
 
-Upload md5 hash on [VirusTotal](https://www.virustotal.com/):  **TeslaCrypt**
+Upload md5 hash on [VirusTotal](https://www.virustotal.com/){:target="_blank"}:  **TeslaCrypt**
 
 ## What is the encryption algorithm used by the ransomware, according to the ransom note?
 
