@@ -11,12 +11,12 @@ author: z3f1r0
 # Welcome to my blog!
 > #### *As the West wind, sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
 
-Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme) by [kitian616](https://github.com/kitian616). A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
+Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme){:target="_blank"} by [kitian616](https://github.com/kitian616){:target="_blank"}. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
 I'd like to start writing about my passion in cybersecurity.
 
 ## Where can I start?
-I have to make practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) and I should  write a lot in order to memorize every special format.
-In this moment I am writing on [https://stackedit.io](https://stackedit.io), a wonderful online editor for markdown.
+I have to make practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links){:target="_blank"} and I should  write a lot in order to memorize every special format.
+In this moment I am writing on [https://stackedit.io](https://stackedit.io){:target="_blank"}, a wonderful online editor for markdown.
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
 
@@ -105,7 +105,7 @@ alert(s);
 
 <div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 
-To upload YouTube videos I used a [TeXt theme extension](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions#video) and I had to write something like this:
+To upload YouTube videos I used a [TeXt theme extension](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions#video){:target="_blank"} and I had to write something like this:
 ```
 <div>{%- include extensions/youtube.html id='x5wkIewzyNg' -%}</div>
 ```
@@ -137,5 +137,5 @@ graph TB;
 
 ### Useful links
 You can find lots of tips to write in markdown at the following links:
-- [https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
-- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+- [https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles){:target="_blank"}
+- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links){:target="_blank"}
