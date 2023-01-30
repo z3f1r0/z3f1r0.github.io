@@ -1,6 +1,8 @@
 ---
 layout: article
-title: z3f1r0 Cyber Security Blog
+title: z3f1r0
+excerpt: >
+  Personal Cyber Security Blog
 mode: immersive
 header:
   theme: dark
@@ -12,9 +14,11 @@ article_header:
   actions:
     - text: Blog
       type: info
+      align: center
       url: /
     - text: ETHQuery
       type: outline-theme-dark
+      align: center
       url: /pages/ethquery.html
 ---
 
