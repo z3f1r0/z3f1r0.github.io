@@ -27,12 +27,12 @@ For this room I used [volatility 3](https://github.com/volatilityfoundation/vola
 
 ### What is the Operating System of this Dump file? (OS name)
 
-In Volatility 3 `--profile` option was deprecated so you can execute `python3 ./vol.py -f victim.raw windows.info`.
+In Volatility 3 `--profile` option was deprecated so you can execute `vol.py -f victim.raw windows.info`.
 > **windows**
 
 ### What is PID of SearchIndexer?
 
-`python3 ./vol.py -f victim.raw windows.pslist | grep SearchIndexer` (remove grep to see effective output layout).
+`vol.py -f victim.raw windows.pslist | grep SearchIndexer` (remove grep to see effective output layout).
 > **2180**
 
 ### What is the last directory accessed by the user? (The last folder name as it is?)
@@ -68,7 +68,7 @@ I found answers into 1820 PID `vol -f victim.ram windows.memmap --pid 1820 --dum
 > **www.goporn.ru**
 
 `strings pid.1820.dmp | grep www.i | grep .com`
-> **www.ikaka.com
+> **www.ikaka.com**
 
 `strings pid.1820.dmp | grep www.ic | grep .com`
 > **www.icsalabs.com**
