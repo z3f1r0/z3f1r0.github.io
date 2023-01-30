@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Home - Header Overlay Background Fill (Immersive + Translucent Header)
+title: z3f1r0 Cyber Security Blog
 mode: immersive
 header:
   theme: dark
@@ -11,6 +11,8 @@ article_header:
   background_image: false
 ---
 
-# Work in progress...
+# Home
 
 Hi, you're in the Home!
+
+## [My articles' page](https://z3f1r0.github.io)
