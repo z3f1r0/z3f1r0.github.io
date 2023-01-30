@@ -12,13 +12,10 @@ article_header:
   actions:
     - text: Blog
       type: info
-      align: center
       url: /
     - text: ETHQuery
       type: outline-theme-dark
-      align: center
       url: /pages/ethquery.html
-  height: 100vh
 ---
 
 # Home
