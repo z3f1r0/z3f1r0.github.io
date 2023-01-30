@@ -1,4 +1,6 @@
 header:
+  - title: Blog
+  - url: /
   - title: ETHQuery
     url: /pages/ethquery.html
   - title: Archive
