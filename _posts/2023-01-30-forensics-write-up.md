@@ -18,7 +18,7 @@ The MD5 hash of the uncompressed file is: **ba44c4b977d28132faeb5fb8b06debce***
 
 For this room I used [volatility 3](https://github.com/volatilityfoundation/volatility3).
 
-*Reference* --> [**Volatility 3 useful commands list**](https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3){:target="_blank"}
+*Reference* --> [**Volatility 3 useful commands list**](https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3){:target="_blank"}.
 
 ### Verify md5 hash
 
