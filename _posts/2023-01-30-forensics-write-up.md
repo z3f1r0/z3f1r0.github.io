@@ -10,7 +10,7 @@ tags:
 
 # Task 1 - Volatility forensics
 
-Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics){:target="_blank"}
+Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics){:target="_blank"}.
 ---
 
 *This is a memory dump of the infected system. Download the file attached to this Task.
