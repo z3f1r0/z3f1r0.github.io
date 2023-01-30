@@ -37,7 +37,7 @@ In Volatility 3 `--profile` option was deprecated so you can execute `vol.py -f 
 
 ### What is the last directory accessed by the user? (The last folder name as it is?)
 
-Use previous version of volatility and launch `vol -f victim.ra --profile=Win7SP1x64 shellbags | sort -k 6` like in this [write-up](https://github.com/emirfattoum/Forensics/blob/main/Memory%20Forensics/TryHackMe_Forensics_Walkthrought.pdf){:target="_blank"}.
+Use previous version of volatility and launch `volatility -f victim.raw --profile=Win7SP1x64 shellbags | sort -k 6` like in this [write-up](https://github.com/emirfattoum/Forensics/blob/main/Memory%20Forensics/TryHackMe_Forensics_Walkthrought.pdf){:target="_blank"}.
 > **deleted_files**
 
 # Task 2
