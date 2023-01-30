@@ -1,4 +1,6 @@
 header:
+  - title: Home
+  - url: /
   - title: ETHQuery
     url: /pages/ethquery.html
   - title: Archive
