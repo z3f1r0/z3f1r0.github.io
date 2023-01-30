@@ -25,4 +25,3 @@ article_header:
 
 Hi, you're in the Home!
 
-## [My articles' page](https://z3f1r0.github.io)
