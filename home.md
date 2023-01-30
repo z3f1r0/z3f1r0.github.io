@@ -11,6 +11,7 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
+  height: 100vh
   actions:
     - text: Blog
       type: info
