@@ -9,6 +9,14 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
+  actions:
+    - text: Blog
+      type: info
+      url: /
+    - text: ETHQuery
+      type: outline-theme-dark
+      url: /pages/ethquery.html
+  height: 100vh
 ---
 
 # Home
