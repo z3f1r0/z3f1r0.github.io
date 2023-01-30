@@ -9,10 +9,10 @@ tags:
 author: z3f1r0
 ---
 
-# Task 1 - Volatility forensics
-
 Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics){:target="_blank"}.
 ---
+
+# Task 1 - Volatility forensics
 
 *This is a memory dump of the infected system. Download the file attached to this Task.
 The MD5 hash of the uncompressed file is: **ba44c4b977d28132faeb5fb8b06debce***
@@ -63,7 +63,7 @@ We can use *malfind* plugin which lists process memory ranges that potentially c
 
 First-of-all dump malicious processes.
 
-I found answers into 1820 PID `vol -f victim.ram windows.memmap --pid 1820 --dump`.
+I found answers into **1820** PID: `vol -f victim.ram windows.memmap --pid 1820 --dump`.
 
 `strings pid.1820.dmp | grep www.go | grep .ru`
 > **www.goporn.ru**
