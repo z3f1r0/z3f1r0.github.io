@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Home - z3f1r0
+title: z3f1r0
 excerpt: >
   Cyber Security Blog
 mode: immersive
