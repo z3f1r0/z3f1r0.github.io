@@ -6,6 +6,7 @@ aside:
 tags:
 - TryHackMe
 - Write-Up
+author: z3f1r0
 ---
 
 # Task 1 - Volatility forensics
