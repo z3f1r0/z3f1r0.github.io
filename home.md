@@ -21,5 +21,3 @@ article_header:
       type: outline-theme-dark
       url: /pages/ethquery.html
 ---
-
-# Home
