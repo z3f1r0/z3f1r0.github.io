@@ -10,7 +10,7 @@ tags:
 
 # Task 1 - Volatility forensics
 
-Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics)
+Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics){:target="_blank"}
 ---
 
 *This is a memory dump of the infected system. Download the file attached to this Task.
@@ -18,7 +18,7 @@ The MD5 hash of the uncompressed file is: **ba44c4b977d28132faeb5fb8b06debce***
 
 For this room I used [volatility 3](https://github.com/volatilityfoundation/volatility3).
 
-*Reference* --> [**Volatility 3 useful commands list**](https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3)
+*Reference* --> [**Volatility 3 useful commands list**](https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3){:target="_blank"}
 
 ### Verify md5 hash
 
@@ -37,7 +37,7 @@ In Volatility 3 `--profile` option was deprecated so you can execute `python3 ./
 
 ### What is the last directory accessed by the user? (The last folder name as it is?)
 
-Use previous version of volatility and launch `vol -f victim.ra --profile=Win7SP1x64 shellbags | sort -k 6` like in this [write-up](https://github.com/emirfattoum/Forensics/blob/main/Memory%20Forensics/TryHackMe_Forensics_Walkthrought.pdf).
+Use previous version of volatility and launch `vol -f victim.ra --profile=Win7SP1x64 shellbags | sort -k 6` like in this [write-up](https://github.com/emirfattoum/Forensics/blob/main/Memory%20Forensics/TryHackMe_Forensics_Walkthrought.pdf){:target="_blank"}.
 > **deleted_files**
 
 # Task 2
