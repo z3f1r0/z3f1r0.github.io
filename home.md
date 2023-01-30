@@ -4,7 +4,6 @@ title: Home - z3f1r0
 excerpt: >
   Cyber Security Blog
 mode: immersive
-full_width: true
 header:
   theme: dark
 article_header:
@@ -13,7 +12,7 @@ article_header:
   theme: dark
   background_color: '#123'
   background_image: false
-  height: 80vh
+  height: 90vh
   actions:
     - text: Blog
       type: info
