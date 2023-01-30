@@ -1,29 +1,24 @@
 ---
 layout: article
-title: z3f1r0
+title: Home - z3f1r0
 excerpt: >
-  Personal Cyber Security Blog
+  Cyber Security Blog
 mode: immersive
+full_width: true
 header:
   theme: dark
 article_header:
+  align: center
   type: overlay
   theme: dark
   background_color: '#123'
   background_image: false
-  height: 100vh
+  height: 80vh
   actions:
     - text: Blog
       type: info
-      align: center
       url: /
     - text: ETHQuery
       type: outline-theme-dark
-      align: center
       url: /pages/ethquery.html
 ---
-
-# Home
-
-Hi, you're in the Home!
-
