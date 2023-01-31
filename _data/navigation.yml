@@ -1,14 +1,10 @@
 header:
+  - title: Home
+  - url: /pages/
   - title: Archive
     url: /archive.html
   - title: About
     url: /about.html
-  - title: Home
-  - url: /pages/home.html
-  - title: ETHQuery
-  - url: /pages/ethquery.html
-  - title: Google
-  - url: https://www.google.com
 
 btlo:
   - title: Challenges
