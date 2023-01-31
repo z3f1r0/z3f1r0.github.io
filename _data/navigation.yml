@@ -3,6 +3,8 @@ header:
     url: /archive.html
   - title: About
     url: /about.html
+  - title: Blog
+  - url: /pages/
     
 btlo:
   - title: Challenges
