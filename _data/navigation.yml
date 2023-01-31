@@ -1,6 +1,6 @@
 header:
   - title: Home
-  - url: /pages/
+  - url: /pages/home.html
   - title: Archive
     url: /archive.html
   - title: About
