@@ -1,10 +1,10 @@
 header:
+  - title: Home
+  - url: /pages/
   - title: Archive
     url: /archive.html
   - title: About
     url: /about.html
-  - title: Blog
-  - url: /pages/
     
 btlo:
   - title: Challenges
