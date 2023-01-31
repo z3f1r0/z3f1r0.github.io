@@ -6,9 +6,7 @@ cover: https://raw.githubusercontent.com/z3f1r0/ETHQuery/master/eth.png
 show_title: false
 ---
 <br>
-#### [ETHQuery](https://github.com/z3f1r0/ETHQuery) is an university project in which you can perform queries on Ethereum Blockchain, thanks to [Alchemy](https://www.alchemy.com/) free API, and receive information about an Ethereum address's transactions.
-
-
+#### [ETHQuery](https://github.com/z3f1r0/ETHQuery) is a simple client-side web application that performs queries upon Ethereum blockchain to receive transactions information of a wallet address thanks to [Alchemy](https://www.alchemy.com/){target="_blank"} free API.
 
 <html>
 <head>
