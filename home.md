@@ -3,10 +3,9 @@ layout: article
 title: z3f1r0
 excerpt: >
   Cyber Security Blog
-permalink: /index.html
-# mode: immersive
-# header:
-#  theme: dark
+mode: immersive
+header:
+  theme: dark
 article_header:
   type: overlay
   align: center
