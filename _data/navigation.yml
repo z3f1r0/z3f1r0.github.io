@@ -1,8 +1,6 @@
 header:
   - title: Blog
   - url: /
-  - title: ETHQuery
-    url: /pages/ethquery.html
   - title: Archive
     url: /archive.html
   - title: About
