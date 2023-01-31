@@ -1,24 +1,11 @@
 header:
   - title: Home
-  - url: /pages/index.html
+  - url: /pages/
   - title: Archive
     url: /archive.html
   - title: About
     url: /about.html
-
-# prova
-layouts:
-  - title: Layouts
-    children:
-      - title:  ETHQuery
-        url:    /pages/ethquery.html
-      - title:  About
-        url:    /about.html
-      - title:  Posts
-        url:    /
-      - title:  Shiba Insider
-        url:    /2022/12/03/shiba-insider.html
-      
+    
 btlo:
   - title: Challenges
     children:
