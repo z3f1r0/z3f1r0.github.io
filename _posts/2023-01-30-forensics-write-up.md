@@ -6,6 +6,7 @@ aside:
 tags:
 - TryHackMe
 - Write-Up
+cover: https://tryhackme.com/img/favicon.png
 author: z3f1r0
 ---
 
