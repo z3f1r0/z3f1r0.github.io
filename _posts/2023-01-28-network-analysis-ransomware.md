@@ -5,6 +5,7 @@ aside:
   toc: true
 sidebar:
   nav: btlo
+cover: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wireshark_icon.svg/1200px-Wireshark_icon.svg.png
 tags:
 - BTLO
 - Challenges
