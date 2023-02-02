@@ -200,6 +200,10 @@ exclude:
   - /test
   - /vendor
 
+collections:
+  writeups:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -213,7 +217,13 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-
+  ## samples
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      nav_key: write-up
+      show_date: false
 
 ## => Plugins
 ##############################
