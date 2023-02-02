@@ -4,7 +4,7 @@ title: Memory Analysis - Ransomware
 aside:
   toc: true
 sidebar:
-  nav: btlo
+  nav: write-ups
 cover: /img/memoryanalysis-ransomware/wanna.png
 tags:
 - BTLO
