@@ -2,7 +2,7 @@ header:
   - title:      Blog
     url:        /pages/
   - title:      Write-Ups
-    url:        /writeups.html
+    url:        /writeups/memory-analysis-ransomware
     key:        write-up
   - title:      Archive
     url:        /archive.html
