@@ -13,14 +13,14 @@ write-ups:
   - title: BTLO Challenges
     children:
       - title:  Memory Analysis - Ransomware
-        url:    /2023/01/11/memory-analysis-ransomware.html
+        url:    /writeups/memory-analysis-ransomware
       - title:  Log Analysis - Compromised Wordpress
-        url:    /2023/01/21/log-analysis-compromised-wordpress.html
+        url:    /writeups/log-analysis-compromised-wordpress
       - title: Network Analysis - Malware Compromise
-        url: /2023/01/26/network-analysis-malware-compromise.html
+        url: /writeups/network-analysis-malware-compromise
       - title: Network Analysis - Ransomware
-        url: /2023/01/28/network-analysis-ransomware.html
+        url: /writeups/network-analysis-ransomware
   - title: TryHackMe Rooms
     children:
       - title: Forensics
-        url: /2023/01/30/forensics-write-up.html
+        url: /writeups/forensics-write-up
