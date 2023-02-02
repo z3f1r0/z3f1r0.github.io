@@ -4,7 +4,7 @@ title: Log Analysis - Compromised Wordpress
 aside:
   toc: true
 sidebar:
-  nav: btlo
+  nav: write-ups
 cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8XBsRa-TGb1pIQyD5nGmbgIzTgxS6OG_Vnw&usqp=CAU
 tags:
 - BTLO
