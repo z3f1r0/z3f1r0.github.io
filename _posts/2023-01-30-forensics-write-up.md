@@ -3,6 +3,8 @@ layout: article
 title: Forensics Write-Up
 aside:
   toc: true
+sidebar:
+  nav: write-ups
 tags:
 - TryHackMe
 - Write-Up
