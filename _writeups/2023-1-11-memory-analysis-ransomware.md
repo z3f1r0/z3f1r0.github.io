@@ -6,6 +6,7 @@ aside:
 sidebar:
   nav: write-ups
 cover: /img/memoryanalysis-ransomware/wanna.png
+permalink: /memory-analysis-ransomware
 tags:
 - BTLO
 - Challenges
