@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: articles
 title: Write-Ups
-permalink: /writeups.html
+show_title: false
+articles:
+  data_source: writeups
+  article_type: BlogPosting
+  show_cover: true
+  show_excerpt: true
+  show_readmore: true
+  show_info: true
 ---
-<div class="layout--articles">
-  <section class="write-ups">
-    {%- include article-list.html articles=site.writeups type='grid' -%}
-  </section>
-</div>
