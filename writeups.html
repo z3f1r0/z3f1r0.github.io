@@ -3,7 +3,7 @@ layout: articles
 title: Write-Ups
 show_title: false
 articles:
-  data_source: writeups
+  data_source: site.writeups
   article_type: BlogPosting
   show_cover: true
   show_excerpt: true
@@ -11,3 +11,9 @@ articles:
   show_info: true
   reverse: true
 ---
+<div class="layout--home">
+  {%- include paginator.html -%}
+</div>
+<script>
+  {%- include scripts/home.js -%}
+</script>
