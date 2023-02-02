@@ -3,6 +3,7 @@ header:
   #  url:        /pages/
   - title:      Write-Ups
     url:        /2023/01/11/memory-analysis-ransomware.html
+    key:        write-up
   - title:      Archive
     url:        /archive.html
   - title:      About
