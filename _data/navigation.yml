@@ -12,14 +12,14 @@ write-ups:
   - title: Challenges
     children:
       - title:  Memory Analysis - Ransomware
-        url:    /docs/memory-analysis-ransomware
+        url:    /docs/memory-analysis-ransomware.html
       - title:  Log Analysis - Compromised Wordpress
-        url:    /docs/log-analysis-compromised-wordpress
+        url:    /docs/log-analysis-compromised-wordpress.html
       - title: Network Analysis - Malware Compromise
-        url: /docs/network-analysis-malware-compromise
+        url: /docs/network-analysis-malware-compromise.html
       - title: Network Analysis - Ransomware
-        url: /docs/network-analysis-ransomware 
+        url: /docs/network-analysis-ransomware.html
   - title: TryHackMe Rooms
     children:
       - title: Forensics
-        url: /docs/forensics-writeup
+        url: /docs/forensics-writeup.html
