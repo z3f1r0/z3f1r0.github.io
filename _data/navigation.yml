@@ -10,7 +10,7 @@ header:
     url:        /about.html
 
 write-ups:
-  - title: Challenges
+  - title: BTLO Challenges
     children:
       - title:  Memory Analysis - Ransomware
         url:    /2023/01/11/memory-analysis-ransomware.html
