@@ -1,23 +1,25 @@
 header:
   - title:      Home
     url:        /pages/
+  - title:      Write-Ups
+    url:        /docs/memory-analysis-ransomware.html
   - title:      Archive
     url:        /archive.html
   - title:      About
     url:        /about.html
 
-btlo:
+write-ups:
   - title: Challenges
     children:
       - title:  Memory Analysis - Ransomware
-        url:    /2023/01/11/memory-analysis-ransomware.html
+        url:    /docs/memory-analysis-ransomware.html
       - title:  Log Analysis - Compromised Wordpress
-        url:    /2023/01/21/log-analysis-compromised-wordpress.html
+        url:    /docs/log-analysis-compromised-wordpress.html
       - title: Network Analysis - Malware Compromise
-        url: /2023/01/26/network-analysis-malware-compromise.html
+        url: /docs/network-analysis-malware-compromise.html
       - title: Network Analysis - Ransomware
-        url: /2023/01/28/network-analysis-ransomware.html  
-  - title: Investigations
+        url: /docs/network-analysis-ransomware.html  
+  - title: TryHackMe Rooms
     children:
-      - title: SOC
-        url: /pages/
+      - title: Forensics
+        url: /docs/forensics-writeup.html
