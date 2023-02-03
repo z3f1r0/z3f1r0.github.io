@@ -10,8 +10,6 @@ header:
     url:        /about.html
 
 write-ups:
-  - title: Write-Ups
-      - url: /writeups.html
   - title: BTLO Challenges
     children:
       - title:  Memory Analysis - Ransomware
