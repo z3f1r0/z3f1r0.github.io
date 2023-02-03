@@ -5,12 +5,12 @@ permalink: /writeups.html
 ---
 
 <div name="text">
-Hi everyone!
-Here my write-ups list about [TryHackMe](https://tryhackme.com/) rooms and [Blue Team Labs Online](https://blueteamlabs.online/) challenges and investigations.
+Hi everyone!<br>
+Here my write-ups list about <a href="https://tryhackme.com/" target="_blank">TryHackMe</a> rooms and <a href="https://blueteamlabs.online/" target="_blank>"Blue Team Labs Online</a> challenges and investigations.
 </div>
 
 <div class="layout--articles">
   <section class="my-5">
-    {%- include article-list.html articles=site.writeups type='brief' shouw_info='true' -%}
+    {%- include article-list.html articles=site.writeups type='brief'show_info=true reverse=true group_by='year' -%}
   </section>
 </div>
