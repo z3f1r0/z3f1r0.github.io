@@ -10,4 +10,4 @@ articles:
 Hi everyone!
 Here my write-ups list about [TryHackMe](https://tryhackme.com/) rooms and [Blue Team Labs Online](https://blueteamlabs.online/) challenges and investigations.
 
-{{ contente }}
+{{ content }}
