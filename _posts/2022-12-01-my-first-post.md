@@ -10,10 +10,11 @@ author: z3f1r0
 ---
 
 # Welcome to my blog!
-> #### *As the West wind, sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
+> #### *Such as West wind sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
 
-Hi! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme){:target="_blank"} by [kitian616](https://github.com/kitian616){:target="_blank"}. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
-I'd like to start writing about my passion in cybersecurity.
+Hi everyone! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme){:target="_blank"} by [kitian616](https://github.com/kitian616){:target="_blank"}. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
+
+I would like to start writing about my life, stories, work in IT and passion in cybersecurity.
 
 ## Where can I start?
 I have to make practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links){:target="_blank"} and I should  write a lot in order to memorize every special format.
