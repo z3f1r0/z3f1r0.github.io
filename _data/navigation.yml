@@ -1,10 +1,8 @@
 header:
   - title:      Blog
     url:        /pages/
-  - title:      Test
-    children:
-      - title:      Write-Ups
-        url:        /writeups.html
+  - title:      Write-Ups
+    url:        /writeups.html
     key:        write-up
   - title:      Archive
     url:        /archive.html
