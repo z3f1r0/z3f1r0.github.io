@@ -56,7 +56,8 @@ Below CyberChef recipe's list to de-obfuscate malicious powershell.
 
 We have to focus on the following lines.
 
-![[Pasted image 20230207160505.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/6.png)
+
 Replace **`Swep6tc`** with **`A69S`**.
 
 > **A69S**
