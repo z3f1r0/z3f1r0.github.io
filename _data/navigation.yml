@@ -20,6 +20,8 @@ write-ups:
         url: /writeups/network-analysis-malware-compromise
       - title: Network Analysis - Ransomware
         url: /writeups/network-analysis-ransomware
+      - title: Malicious Powershell Analysis
+        url: writeups/Malicious-Powershell-Analysis.md
   - title: TryHackMe Rooms
     children:
       - title: Forensics
