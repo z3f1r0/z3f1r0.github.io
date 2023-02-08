@@ -4,7 +4,7 @@ title: Malicious Powershell Analysis
 aside:
   toc: true
 sidebar:
-  nav: btlo
+  nav: write-ups
 permalink: writeups/2023-02-08-malicious-powershell-analysis
 cover: https://miro.medium.com/max/786/0*Q-sW75vMp0rrOuv_.webp
 tags:
