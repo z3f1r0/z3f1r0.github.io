@@ -1,5 +1,3 @@
-#BTLO #Challenges #DFIR 
-
 ---
 layout: article
 title: Malicious Powershell Analysis
@@ -30,11 +28,11 @@ Recently the networks of a large company named GothamLegend were compromised aft
 
 First of all I applied **Base 64** decoding and then **UTF-16LE**.
 
-![[BTLO/Challenges/Malicious Powershell Analysis/1.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/1.png)
+
 After that we can see enough to answer question 1.
 
-![[BTLO/Challenges/Malicious Powershell Analysis/2.png]]
-
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/2.png)
 > **TLS 12**
 
 ### 2. What directory does the obfuscated PowerShell create? (Starting from \\HOME\\) _(4 points)_
@@ -53,7 +51,7 @@ The result is `HOME\db_BH30\yF5BE5\`.
 
 Below CyberChef recipe's list to de-obfuscate malicious powershell.
 
-![[BTLO/Challenges/Malicious Powershell Analysis/3.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/3.png)
 
 We have to focus on the following lines.
 
@@ -66,13 +64,13 @@ Replace **`Swep6tc`** with **`A69S`**.
 
 Look for **A69S.dll** and we will find execution with **rundll32**.
 
-![[BTLO/Challenges/Malicious Powershell Analysis/5.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/5.png)
 
 > **rundll32**
 
 #### 5. What is the domain name of the URI ending in ‘/6F2gd/’ _(3 points)_
 
-![[BTLO/Challenges/Malicious Powershell Analysis/4.png]]
+![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/malicious-powershell-analysis/4.png)
 
 > **wm.mcdevelop.net**
 
