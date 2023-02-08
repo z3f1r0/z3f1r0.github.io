@@ -4,6 +4,7 @@ title: ETHQuery
 tag: Projects
 cover: https://raw.githubusercontent.com/z3f1r0/ETHQuery/master/eth.png
 show_title: false
+full_width: true
 ---
 
 <br>
