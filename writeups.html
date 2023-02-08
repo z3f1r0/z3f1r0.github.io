@@ -14,6 +14,8 @@ permalink: /writeups.html
 
 <div class="layout--articles">
   <section class="my-5">
-    {%- include article-list.html articles=site.writeups type='brief' show_info=true reverse=true group_by='year' -%}
+    {%- include article-list.html articles=site.writeups show_excerpt=true show_readmore=true -%}
   </section>
 </div>
+
+<!--- type='brief' show_info=true reverse=true group_by='year' --->
