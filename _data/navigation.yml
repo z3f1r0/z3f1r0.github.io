@@ -21,7 +21,7 @@ write-ups:
       - title: Network Analysis - Ransomware
         url: /writeups/network-analysis-ransomware
       - title: Malicious Powershell Analysis
-        url: writeups/Malicious-Powershell-Analysis.md
+        url: /writeups/2023-02-08-malicious-powershell-analysis
   - title: TryHackMe Rooms
     children:
       - title: Forensics
