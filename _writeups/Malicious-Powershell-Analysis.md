@@ -6,7 +6,7 @@ aside:
 sidebar:
   nav: btlo
 permalink: writeups/Malicious-Powershell-Analysis.md
-cover: https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fmii-cybersec%2Fmalicious-powershell-deobfuscation-using-cyberchef-dfb9faff29f&psig=AOvVaw2gORRHJL35SHxf6HCilD9k&ust=1675930089241000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLDB1aK8hf0CFQAAAAAdAAAAABAI
+cover: https://miro.medium.com/max/786/0*Q-sW75vMp0rrOuv_.webp
 tags:
 - BTLO
 - Challenges
