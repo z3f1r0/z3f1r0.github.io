@@ -5,7 +5,7 @@ aside:
   toc: true
 sidebar:
   nav: btlo
-permalink: writeups/2023-02-08-malicious-powershell-analysis.md
+permalink: writeups/2023-02-08-malicious-powershell-analysis
 cover: https://miro.medium.com/max/786/0*Q-sW75vMp0rrOuv_.webp
 tags:
 - BTLO
