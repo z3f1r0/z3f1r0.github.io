@@ -5,7 +5,7 @@ tag: Projects
 cover: https://raw.githubusercontent.com/z3f1r0/ETHQuery/master/eth.png
 show_title: true
 full_width: true
-header: false
+header: true
 ---
 
 <br>
