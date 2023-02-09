@@ -3,9 +3,9 @@ layout: page
 title: ETHQuery
 tag: Projects
 cover: https://raw.githubusercontent.com/z3f1r0/ETHQuery/master/eth.png
-show_title: true
+show_title: false
 full_width: true
-header: true
+header: false
 ---
 
 <br>
