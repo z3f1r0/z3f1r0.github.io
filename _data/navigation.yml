@@ -26,3 +26,6 @@ write-ups:
     children:
       - title: Forensics
         url: /writeups/forensics
+    children:
+      - title: Mr Robot CTF
+        url: /writeups/mrrobot
