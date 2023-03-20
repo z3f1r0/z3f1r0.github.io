@@ -1,19 +1,17 @@
 ---
-layout: articles
+layout: page
 title: Blog
-show_title: false
-articles:
-  data_source: posts
-  show_cover: false
-  show_excerpt: true
-  show_readmore: true
-  show_info: true
+permalink: /pages/blog/
 ---
 
 <div name="text">
   <span style="color: black;">
     Hi everyone!<br>
-    Here my write-ups list about <a href="https://tryhackme.com/" target="_blank">TryHackMe</a> rooms and 
-    <a href="https://blueteamlabs.online/" target="_blank"> Blue Team Labs Online </a> challenges and investigations.
   </span>
+</div>
+
+<div class="layout--articles">
+  <section class="my-5">
+    {%- include article-list.html articles=site.posts type='item' show_cover=false show_excerpt=true show_readmore=true show_info= true reverse=true -%}
+  </section>
 </div>
