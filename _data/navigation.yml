@@ -22,6 +22,8 @@ write-ups:
         url: /writeups/network-analysis-ransomware
       - title: Malicious Powershell Analysis
         url: /writeups/2023-02-08-malicious-powershell-analysis
+      - title: Browser Forensics - Cryptominer
+        url: /writeups/browser-crypto-miner
   - title: TryHackMe Rooms
     children:
       - title: Forensics
