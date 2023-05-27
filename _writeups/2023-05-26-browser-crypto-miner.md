@@ -4,7 +4,7 @@ title: Browser Forensics - Cryptominer
 aside:
   toc: true
 sidebar:
-  nav: btlo
+  nav: write-ups
 cover: https://cdn.pixabay.com/photo/2020/10/22/01/46/cryptocurrency-5674685_1280.png
 permalink: /writeups/browser-crypto-miner
 tags:
