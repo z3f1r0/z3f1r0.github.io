@@ -94,7 +94,7 @@ Referring to *description* and *name* we can understand that this is the cryptom
 
 ### What is the name of the specific javascript web miner used in the browser extension?
 
-Opening **background.js** I find the answer.
+Opening **background.js** I found the answer.
 
 ```js
 <script src="https://crypto-loot.com/lib/miner.min.js"></script>
