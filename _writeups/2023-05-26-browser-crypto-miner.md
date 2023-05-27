@@ -5,19 +5,17 @@ aside:
   toc: true
 sidebar:
   nav: btlo
-cover: https://vectorportal.com/storage/nVEpIPzyqnFvwpxEhCkh19Zv2lWfU4CTlOB5NMLc.jpg
+cover: https://cdn.pixabay.com/photo/2020/10/22/01/46/cryptocurrency-5674685_1280.png
 permalink: /writeups/browser-crypto-miner
 tags:
 - BTLO
 - Challenges
 author: z3f1r0
 ---
-
 ## Scenario
 Our SOC alerted that there is some traffic related to crypto mining from a PC that was just joined to the network. The incident response team acted immediately, observed that the traffic is originating from browser applications. After collecting all key browser data using FTK Imager, it is your job to use the ad1 file to investigate the crypto mining activity.
 
 ## Introduction
-
 First of all, I downloaded "Browser Dump" file and copied it to a Windows VM where it was installed FTK Imager. 
 
 - Here you can download FTK --> [FTK Imager download](https://www.exterro.com/ftk-imager)
@@ -155,6 +153,6 @@ Just a Google search.
 
 
 *References*:
-- https://nasbench.medium.com/web-browsers-forensics-7e99940c579a
-- https://focusinfotech.com/blog/browser-forensics/
-- https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433
+- [https://nasbench.medium.com/web-browsers-forensics-7e99940c579a](https://nasbench.medium.com/web-browsers-forensics-7e99940c579a)
+- [https://focusinfotech.com/blog/browser-forensics](https://focusinfotech.com/blog/browser-forensics)
+- [https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433](https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433)
