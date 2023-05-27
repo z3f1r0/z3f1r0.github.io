@@ -18,7 +18,7 @@ Our SOC alerted that there is some traffic related to crypto mining from a PC th
 ## Introduction
 First of all, I downloaded "Browser Dump" file and copied it to a Windows VM where it was installed FTK Imager. 
 
-- Here you can download FTK --> [FTK Imager download](https://www.exterro.com/ftk-imager)
+- Here you can download FTK --> [FTK Imager download](https://www.exterro.com/ftk-imager){:target="_blank"}
 
 Inside "Browser Dump" there are two files:
 - **browserdata.ad1**
@@ -153,6 +153,6 @@ Just a Google search.
 
 
 *References*:
-- [https://nasbench.medium.com/web-browsers-forensics-7e99940c579a](https://nasbench.medium.com/web-browsers-forensics-7e99940c579a)
-- [https://focusinfotech.com/blog/browser-forensics](https://focusinfotech.com/blog/browser-forensics)
-- [https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433](https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433)
+- [https://nasbench.medium.com/web-browsers-forensics-7e99940c579a](https://nasbench.medium.com/web-browsers-forensics-7e99940c579a){:target="_blank"}
+- [https://focusinfotech.com/blog/browser-forensics](https://focusinfotech.com/blog/browser-forensics){:target="_blank"}
+- [https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433](https://infosecwriteups.com/browser-forsensics-cyptominer-49e5beeb4433){:target="_blank"}
