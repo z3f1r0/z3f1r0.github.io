@@ -24,6 +24,8 @@ write-ups:
         url: /writeups/2023-02-08-malicious-powershell-analysis
       - title: Browser Forensics - Cryptominer
         url: /writeups/browser-crypto-miner
+      - title: Network Analysis - Web Shell
+        url: /writeups/network-analysis-web-shell
   - title: TryHackMe Rooms
     children:
       - title: Forensics
