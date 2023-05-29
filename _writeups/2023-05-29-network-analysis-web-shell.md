@@ -54,7 +54,7 @@ This is a specific Port Scanning technique: **TCP SYNScan**.
 You can read more [here](https://iphelix.medium.com/port-scanning-techniques-7661839d182e){:target="_blank"} about Port Scanning's Techniques.
 [Here](https://www.howtouselinux.com/post/tcp-flags){:target="_blank"} you can read more about packet TCP Flags.
 
- - This is a good query cheat sheet for [Detection network attacks with Wireshark](https://www.infosecmatter.com/detecting-network-attacks-with-wireshark/)
+ - This is a good query cheat sheet for [Detection network attacks with Wireshark](https://www.infosecmatter.com/detecting-network-attacks-with-wireshark/){:target="_blank"}
 
 >TCP SYN
 
