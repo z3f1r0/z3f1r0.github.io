@@ -13,12 +13,12 @@ tags:
 author: z3f1r0
 ---
 
-# Scenario
+## Scenario
 ABC Industries worked day and night for a month to prepare a tender document for a prestigious project that would secure the company’s financial future. The company was hit by ransomware, believed to be conducted by a competitor, and the final version of the tender document was encrypted. Right now they are in need of an expert who can decrypt this critical document. All we have is the network traffic, the ransom note, and the encrypted ender document. Do your thing Defender!​
 
 `Wireshark`{:.info} `Tshark`{:.info} `TCPDump`{:.info}
 
-# Challenge Submission
+## Challenge Submission
 
 ### What is the operating system of the host from which the network traffic was captured? (Look at Capture File Properties, copy the details exactly)
 
