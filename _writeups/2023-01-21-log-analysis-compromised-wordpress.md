@@ -12,10 +12,10 @@ tags:
 - Challenges
 ---
 
-# Scenario
+## Scenario
 One of our WordPress sites has been compromised but we're currently unsure how. The primary hypothesis is that an installed plugin was vulnerable to a remote code execution vulnerability which gave an attacker access to the underlying operating system of the server.
 
-# Challenge Submission
+## Challenge Submission
 
 ### Q1. Identify the URI of the admin login panel that the attacker gained access to (include the token)
 To find the answer you just have launch `cat access.log | grep .php?` and you will find the correct string: `wp-login.php?itsec-hb-token=adminlogin`
