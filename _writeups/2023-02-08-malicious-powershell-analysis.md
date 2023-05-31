@@ -14,10 +14,10 @@ tags:
 
 For this challenge I used [CyberChef](https://gchq.github.io/CyberChef/).
 
-# Scenario
+## Scenario
 Recently the networks of a large company named GothamLegend were compromised after an employee opened a phishing email containing malware. The damage caused was critical and resulted in business-wide disruption. GothamLegend had to reach out to a third-party incident response team to assist with the investigation. You are a member of the IR team - all you have is an encoded Powershell script. Can you decode it and identify what malware is responsible for this attack?
 
-# Challenge Submission
+## Challenge Submission
 
 ### 1. What security protocol is being used for the communication with a malicious domain? _(3 points)_
 
@@ -78,7 +78,7 @@ Just research on Google first part of malicious powershell script.
 
 
 *References*:
-- [https://malware.news/t/deobfuscating-powershell-putting-the-toothpaste-back-in-the-tube/23509](https://malware.news/t/deobfuscating-powershell-putting-the-toothpaste-back-in-the-tube/23509)
-- [https://www.socinvestigation.com/cooking-malicious-powershell-obfuscated-commands-with-cyberchef](https://www.socinvestigation.com/cooking-malicious-powershell-obfuscated-commands-with-cyberchef)
-- [https://medium.com/mii-cybersec/malicious-powershell-deobfuscation-using-cyberchef-dfb9faff29f](https://medium.com/mii-cybersec/malicious-powershell-deobfuscation-using-cyberchef-dfb9faff29f)
-- [https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639](https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639)
+- [https://malware.news/t/deobfuscating-powershell-putting-the-toothpaste-back-in-the-tube/23509](https://malware.news/t/deobfuscating-powershell-putting-the-toothpaste-back-in-the-tube/23509){:target="_blank"}
+- [https://www.socinvestigation.com/cooking-malicious-powershell-obfuscated-commands-with-cyberchef](https://www.socinvestigation.com/cooking-malicious-powershell-obfuscated-commands-with-cyberchef){:target="_blank"}
+- [https://medium.com/mii-cybersec/malicious-powershell-deobfuscation-using-cyberchef-dfb9faff29f](https://medium.com/mii-cybersec/malicious-powershell-deobfuscation-using-cyberchef-dfb9faff29f){:target="_blank"}
+- [https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639](https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639){:target="_blank"}
