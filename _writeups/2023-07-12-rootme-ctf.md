@@ -55,6 +55,7 @@ Et voilà, we have a shell.
 
 ## Privilege escalation
 First of all we search for files with SUID permission.
+
 `find / -user root -perm /4000 2>/dev/null`
 
 Now we have list of all files that can be executed like root from other users.
