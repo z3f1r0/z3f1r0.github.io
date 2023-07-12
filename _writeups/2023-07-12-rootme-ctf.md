@@ -16,6 +16,7 @@ tags:
 First of all, we start with a little scan to discover services and technology about target.
 
 TCP SYN SCAN --> [https://nmap.org/book/synscan.html](https://nmap.org/book/synscan.html)
+
 `sudo nmap -sS <IP ADDRESS> -p-`
 
 This may take few minutes because we are scanning all TCP ports.
