@@ -3,6 +3,8 @@ layout: article
 title: RootMe CTF
 aside:
   toc: true
+cover: https://i.imgur.com/mp5JwKO.png](https://res.cloudinary.com/practicaldev/image/fetch/s--J4tkVXTj--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kqqova632hnzjav20vx5.png
+permalink: /writeups/rootme
 tags:
 - TryHackMe
 - Write-Up
