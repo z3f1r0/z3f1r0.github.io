@@ -32,3 +32,5 @@ write-ups:
         url: /writeups/forensics
       - title: Mr Robot CTF
         url: /writeups/mrrobot
+      - title: RootMe CTF
+        url: /writeups/rootme
