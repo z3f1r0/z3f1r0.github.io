@@ -38,7 +38,8 @@ Ports 22 and 80 are open. We can navigate the website.
 To find Apache version, launch the following command:
 `sudo nmap -sV <IP ADDRESS> -p 80`
 
-Web server folders enumeration using `gobuster`:
+Web server folders enumeration using `gobuster`.
+
 `gobuster dir -u http://<IP ADDRESS> -w /usr/share/wordlists/dirb/big.txt`
 
 We have found */panel* folder.
