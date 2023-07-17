@@ -42,7 +42,7 @@ ftp <IP>
 ```
 
 We have found two txt files.
-In one filw we find the username and in the other file a password list.
+In one file we find the username and in the other file a password list.
 
 ## Getting a shell
 With username and a password list we can use hydra to obtain a shell exploiting ssh service.
