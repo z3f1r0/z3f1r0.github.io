@@ -19,7 +19,7 @@ tags:
 Deploy the machine e start with recon!
 Starting with a port scan we have the following situation:
 
-```nmap 
+``` 
 Nmap scan report for 10.10.28.89
 Host is up (0.082s latency).
 Not shown: 55529 filtered tcp ports (no-response), 10003 closed tcp ports (reset)
@@ -65,7 +65,7 @@ User lin may run the following commands on bountyhacker:
 	(root) /bin/tar
 ```
 
-So I searched on Google how to obtain a shell exploiting `/bin/tar`.
+So I searched on Google how to obtain a root shell exploiting `/bin/tar`.
 
 I found the following guide: [https://gtfobins.github.io/gtfobins/tar/](https://gtfobins.github.io/gtfobins/tar/)
 
