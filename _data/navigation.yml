@@ -34,3 +34,5 @@ write-ups:
         url: /writeups/mrrobot
       - title: RootMe CTF
         url: /writeups/rootme
+      - title: Bounty Hacker
+        url: /writeups/bountyhacker
