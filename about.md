@@ -14,8 +14,7 @@ key: page-about
 
 <div>
   <script>
-    document.write(window.atob("
-                               <div id="thm_badge" class="thm_margin" onClick="location.href='https://blueteamlabs.online/public/user/z3f1r0'">
+    document.write("<div id="thm_badge" class="thm_margin" onClick="location.href='https://blueteamlabs.online/public/user/z3f1r0'">
   <div style="width: auto; border-radius: 4px; margin-right: 0px">
     <div class="thm_avatar" style="background-image: url(https://tryhackme-images.s3.amazonaws.com/user-avatars/9e8812eb379e4910decf136d5bcc2292.png)"></div>
   </div>
@@ -211,6 +210,6 @@ key: page-about
 </div>
 
 <!-- Javascript to get current URL and append to our server -->
-"))
+")
   </script>
 </div>
