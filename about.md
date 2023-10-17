@@ -19,7 +19,7 @@ key: page-about
 
     <script>
         // URL della pagina web che desideri visualizzare
-        var url = "[https://www.esempio.com](https://blueteamlabs.online/public/user/z3f1r0)";
+        var url = "https://blueteamlabs.online/public/user/z3f1r0";
 
         // Seleziona l'elemento div in cui verrà inserito il contenuto
         var contenutoDiv = document.getElementById("contenuto");
