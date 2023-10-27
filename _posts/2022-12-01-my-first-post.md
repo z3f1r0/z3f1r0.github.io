@@ -12,12 +12,15 @@ tag: Blog
 # Welcome to my blog!
 > #### *Such as West wind sometimes I am like a gentle breeze and sometimes I am like an heavy storm!*
 
-Hi everyone! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme){:target="_blank"} by [kitian616](https://github.com/kitian616){:target="_blank"}. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest it to web passionate to try it.
+Hi everyone! This is my first post on a blog built with [jekyll TeXt theme](https://github.com/kitian616/jekyll-TeXt-theme){:target="_blank"} by [kitian616](https://github.com/kitian616){:target="_blank"}. A very nice, powerful and customizable theme to build personal sites and blogs! I suggest to web passionate to try it.
 
-I would like to start writing about my life, stories, work in IT and passion in cybersecurity.
+I would like to start writing about my passion in information technology, especially in cybersecurity. Also introducing my personal opinion. 
+I think I will publish different projects, procedures, interesting sheets and walkthroughts about the cyber world. 
+I hope this blog could be help for someone.
 
 ## Where can I start?
-I have to make practice with markdown syntax. I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links){:target="_blank"} and I should  write a lot in order to memorize every special format.
+I have to make practice with markdown syntax. 
+I found a [very useful guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links){:target="_blank"} and I should  write a lot in order to memorize every special format.
 In this moment I am writing on [https://stackedit.io](https://stackedit.io){:target="_blank"}, a wonderful online editor for markdown.
 
 ![Alt text](https://raw.githubusercontent.com/z3f1r0/z3f1r0.github.io/master/img/stackedit.png)
