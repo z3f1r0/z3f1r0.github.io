@@ -8,7 +8,7 @@ key: page-about
  <script src="https://tryhackme.com/badge/519455"> </script>
 
   <!-- Right alignment! -->
-  <img align="right" width="210" height="200" src="assets/goddd.png" style="border-radius:50%;">
+  <img align="right" width="210" height="200" src="assets/goddd.jpg" style="border-radius:50%;">
   
 </div>
 
