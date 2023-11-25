@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Genesis of "Cyber": Navigating Its Etymological Voyage
+title: The Genesis of "Cyber"
 aside:
   toc: true
 show: false
