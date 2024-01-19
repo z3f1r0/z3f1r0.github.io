@@ -11,7 +11,7 @@ key: page-about
 
 Hello!<br>
 
-z3f1r0 is my online nickname, but my friends call me Peter.<br> 
+**z3f1r0** is my online nickname, but my friends call me Peter.<br> 
 I work in cybersecurity and am passionate about both red and blue team activities.<br>
 This is a personal space where I can keep my notes and express my interests. <br><br>
 
