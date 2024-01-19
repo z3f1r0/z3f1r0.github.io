@@ -15,7 +15,7 @@ Hello!<br>
 I work in cybersecurity and am passionate about both red and blue team activities.<br>
 This is a personal space where I can keep my notes and express my interests. <br><br>
 
-  <div name="tryhackme"> 
+  <div name="tryhackme" align="right"> 
    <script src="https://tryhackme.com/badge/519455"> </script>
   </div>
 
