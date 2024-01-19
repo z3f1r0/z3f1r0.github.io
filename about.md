@@ -12,6 +12,7 @@ key: page-about
 Hello. z3f1r0 is my online nickname, but my friends call me Peter. 
 I work in cybersecurity and am passionate about both red and blue team activities. 
 This is a personal space where I can keep my notes and express my interests.
+<b><b>
 
   <div name="tryhackme"> 
    <script src="https://tryhackme.com/badge/519455"> </script>
