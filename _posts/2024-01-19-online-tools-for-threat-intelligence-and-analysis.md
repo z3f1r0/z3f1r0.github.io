@@ -50,5 +50,6 @@ The following online tools are used mostly for Threat Intelligence activities an
 
 - [ExploitDB](https://www.exploit-db.com/){:target="_blank"}
 - [NIST CVE Database](https://nvd.nist.gov/vuln/search){:target="_blank"}
+- [CVE MITRE](https://cve.mitre.org/){:target="_blank"}
 
 I will update this list.
