@@ -41,7 +41,7 @@ The following online tools are used mostly for Threat Intelligence activities an
 ## OSINT
 
 - [abuse.ch](https://abuse.ch/){:target="_blank"}: Abuse.ch is providing community driven threat intelligence on cyber threats; sharing malware samples, IOCs, blocklist for malicious SSL with the community, AV vendors and threat intelligence providers.
-- [Shodan](shodan.io){:target="_blank"}: A search engine for internet-connected devices, helping security analysts discover devices that are publicly accessible on the internet.
+- [Shodan](Https://shodan.io/){:target="_blank"}: A search engine for internet-connected devices, helping security analysts discover devices that are publicly accessible on the internet.
 - [OSINT Framework](https://osintframework.com){:target="_blank"}: OSINT framework focused on gathering information from free tools or resources.
 - [CentralOps](https://centralops.net/){:target="_blank"}: Tool for domain and email check, ping, traceroute and more.
 - [IPVOID](https://www.ipvoid.com/){:target="_blank"}: Tools for network OSINT.
