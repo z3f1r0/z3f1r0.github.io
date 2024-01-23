@@ -37,6 +37,7 @@ The following online tools are used mostly for Threat Intelligence activities an
 ## Phishing Search
 
 - [PhishTank](https://www.phishtank.com/){:target="_blank"}: PhishTank is a collaborative clearing house for data and information about phishing on the Internet. Also, PhishTank provides an open API for developers and researchers to integrate anti-phishing data into their applications at no charge.
+- [Phish.ly](https://phish.ly): Phish.ly combines the world's leading security automation platform, [Tines](https://www.tines.com/), and the world's most popular url intelligence tool, [urlscan.io](https://urlscan.io/), to automatically analyse suspicious emails for free.
 
 ## OSINT
 
