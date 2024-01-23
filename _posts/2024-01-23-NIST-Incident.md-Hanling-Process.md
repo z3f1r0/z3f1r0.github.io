@@ -8,14 +8,6 @@ tags:
 - Incident Response
 ---
 
-# Table of Contents
-
-1. [Introduction](#Introduction)
-2. [Preparation](#Preparation)
-3. [Detection & Analysis](#Detection&Analysis)
-4. [Containment, Eradication and Recovery](#Containment,\Eradicationan\and\Recovery)
-5. [Post-Incident Activity](#Post-Incident\Activity\\(Lessons\Learned))
-6. [References](#References)
 # Introduction
 
 The **NIST (National Institute of Standards and Technology) Incident Handling Process** is a structured approach for managing security incidents, problems, and events. This process is detailed in [NIST Special Publication 800-61](https://csrc.nist.gov/pubs/sp/800/61/r2/final), titled ["Computer Security Incident Handling Guide"](https://csrc.nist.gov/pubs/sp/800/61/r2/final). The goal is to help organizations - particularly federal agencies, but also others in the private sector - manage incidents effectively by preparing for, detecting, analyzing, containing, eradicating, and recovering from incidents.
