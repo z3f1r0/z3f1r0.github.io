@@ -14,20 +14,20 @@ For this reason I wanted to write a list of best online tools for Threat Intelli
 
 The following online tools are used mostly for Threat Intelligence activities and to collect information about different threats. 
 
-## Malware Sandboxing
-
-- [Virus Total](https://www.virustotal.com/){:target="_blank"}: A popular tool that uses over 70 antivirus scanners and URL/domain blacklisting services to analyze suspicious files and URLs.
-- [Hybrid Analysis](https://www.hybrid-analysis.com/){:target="_blank"}: Provides free malware analysis service, leveraging various sandboxing technologies to analyze suspicious files in a safe, isolated environment.
-- [Any.Run](https://any.run/){:target="_blank"}: An interactive sandbox that allows users to observe malware behavior in real time, offering valuable insights into malware tactics and communication.
-
 ## File, IP and Domain Reputation Tools
 
+- [Virus Total](https://www.virustotal.com/){:target="_blank"}: A popular tool that uses over 70 antivirus scanners and URL/domain blacklisting services to analyze suspicious files and URLs.
 - [Talos Intelligence (Cisco)](https://talosintelligence.com/){:target="_blank"}: Offers reputation and threat intelligence. You can check the reputation of IP addresses, domains, and file hashes.
 - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/){:target="_blank"}: IBM X-Force Exchange is a cloud-based threat intelligence sharing platform that enables users to research security threats, aggregate intelligence, and collaborate with peers. It is part of IBM Security's suite of products and is designed to help security teams proactively understand and mitigate potential threats.
 - [Metadefender](https://metadefender.opswat.com/){:target="_blank"}: MetaDefender by OPSWAT is a well-known cybersecurity platform that provides multiple security features to protect organizations against cyber threats. It's particularly noted for its multi-scanning technology, which uses over 30 different antivirus engines to scan files for threats, significantly increasing the detection rates of malware and other malicious content.
 - [OTX AlienVault](https://otx.alienvault.com/){:target="_blank"}: AlienVault OSSIM® Open Threat Exchange®(OTX™) is a threat data platform that allows security researchers and threat data producers to share research and investigate new threats. OTX provides open access for all, allowing you to collaborate with a worldwide community of threat researchers and security professionals.
 - [MXToolbox](https://mxtoolbox.com/){:target="_blank"}: Provides a comprehensive check against blacklists and offers various network diagnostic tools.
 - [DNSBL (DNS Blacklists)](https://www.dnsbl.info/){:target="_blank"}: Various DNSBL services allow you to check if an IP address is listed on specific blacklists, which is often indicative of a compromised or malicious IP.
+
+## Malware Sandboxing
+
+- [Hybrid Analysis](https://www.hybrid-analysis.com/){:target="_blank"}: Provides free malware analysis service, leveraging various sandboxing technologies to analyze suspicious files in a safe, isolated environment.
+- [Any.Run](https://any.run/){:target="_blank"}: An interactive sandbox that allows users to observe malware behavior in real time, offering valuable insights into malware tactics and communication.
 
 ## URL Scanner
 
