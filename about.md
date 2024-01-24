@@ -18,10 +18,8 @@ This is a personal space where I can keep my notes and express my interests. <br
   </div>
 
   <br><br>  
-    <div style="float:right" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3dfaa853-7327-4574-98b6-c9ab331cfd5a" data-share-badge-host="https://www.credly.com"> 
-    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-  </div>
-  
+  <img align="right" width="180" height="170" src="assets/btl1.png" style="border-radius:50%;">
+
 </div>
 
 
