@@ -17,9 +17,11 @@ This is a personal space where I can keep my notes and express my interests. <br
    <script src="https://tryhackme.com/badge/519455"> </script>
   </div>
 
-<br><br>  
-<div align="right" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3dfaa853-7327-4574-98b6-c9ab331cfd5a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
+  <br><br>  
+    <div align="right" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3dfaa853-7327-4574-98b6-c9ab331cfd5a" data-share-badge-host="https://www.credly.com"> 
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+  </div>
+  
 </div>
 
 
