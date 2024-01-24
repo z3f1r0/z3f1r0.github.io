@@ -18,7 +18,7 @@ This is a personal space where I can keep my notes and express my interests. <br
   </div>
 
   <br><br>  
-  <img align="right" width="180" height="170" src="assets/btl1.png" style="border-radius:50%;">
+  <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;">
 
 </div>
 
