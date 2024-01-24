@@ -16,8 +16,7 @@ This is a personal space where I can keep my notes and express my interests. <br
   <div name="tryhackme"> 
    <script src="https://tryhackme.com/badge/519455"> </script>
   </div>
-
-  <br><br>  
+  
   <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;">
 
 </div>
