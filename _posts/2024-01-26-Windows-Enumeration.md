@@ -315,7 +315,7 @@ Get-Service WinDefend
 
 #### Current Status of Security Tools, including Anti-Spyware, Antivirus, LoavProtection, Real-time protection, etc.
 
-```powersehll
+```powershell
 Get-MpComputerStatus
 ````
 
