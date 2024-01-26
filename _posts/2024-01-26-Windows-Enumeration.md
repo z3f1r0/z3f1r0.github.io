@@ -27,7 +27,9 @@ Get-CimInstance -query 'select * from win32_quickfixengineering' | foreach $_.ho
 
 Use the attribute `-description "Security update"` of `Get-Hotfix` to list only security updates.
 
-`wmic qfe get Caption,Description,HotFixID,InstalledOn`
+```
+wmic qfe get Caption,Description,HotFixID,InstalledOn
+```
 
 #### Installed Drivers (requires elevated privileges)
 
@@ -37,7 +39,7 @@ Get-WindowsDriver -Online -All
 
 ### CPU Version and Architecture
 
-```cmd
+```
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"
 ```
 
@@ -108,7 +110,7 @@ Get-ChildItem Env:
 
 #### Network Discovery
 
-```cmd
+```
 net view /all
 
 net view \\<HOST NAME>
@@ -116,37 +118,37 @@ net view \\<HOST NAME>
 
 ##### Basic ping scan and write output to a file
 
-```cmd
+```
 for /L %i in (1,1,254) do ping -w 30 -n 1 192.168.1.%i | find "Reply" >> <OUTPUT FILE NAME>.txt
 ```
 
 #### Network Interfaces
 
-```cmd
+```
 ipconfig /all
 ```
 
 #### Active Connections
 
-```cmd
+```
 netstat -ano
 ```
 
 #### Routing Table
 
-```cmd
+```
 netstat -r
 ```
 
 #### Hosts File
 
-```cmd
+```
 type %SYSTEMROOT%\system32\drivers\etc\hosts
 ```
 
 #### ARP Cache
 
-```cmd
+```
 arp -a
 ```
 
@@ -154,19 +156,19 @@ arp -a
 
 ##### Basic nbtstat scan
 
-```cmd
+```
 nbtstat -A <IP ADDRESS>
 ```
 
 #### Cached NetBIOS info on localhost
 
-```cmd
+```
 nbtstat -c
 ```
 
 ##### Script loop scan
 
-```cmd
+```
 for /L %i in (1,2,254) do nbstat -An 192.168.1.%i
 ```
 ### Network Enumeration via Powershell
@@ -209,7 +211,7 @@ Get-NetNeighbor
 Get-LocalUser | Select *
 ```
 
-```cmd
+```
 net user "<UTENTE>"
 ```
 ### Local Users
@@ -222,7 +224,7 @@ Get-LocalUser | Format-Table Name,Enabled,LastLogon,SID
 Get-CimInstance -class Win32_UserAccount
 ```
 
-```cmd
+```
 net users
 ```
 
@@ -253,12 +255,13 @@ net localgroup Administrators
 
 ### Display Who is Currently Logged In
 
-```cmd
+```
 qwinsta
 ```
 
 #### Sources
 - [https://github.com/tom0li/collection-document/blob/master/Blue%20Team%20Field%20Manual.pdf](https://github.com/tom0li/collection-document/blob/master/Blue%20Team%20Field%20Manual.pdf)
+
 ## Service Enumeration
 
 ### Service Enumeration via Powershell or cmd
@@ -277,7 +280,7 @@ List of all services with their ProcessID for those running (cmd.exe): `wmic ser
 Get-WmiObject -class Win32_Service -Property Name, DisplayName, PathName, StartMode | Where {$_.PathName -notlike "C:\Windows*" -and $_.PathName -notlike '"*'} | select Name,DisplayName,StartMode,PathName
 ```
 
-```cmd
+```
 wmic service get name,displayname,pathname,startmode |findstr /i "auto" |findstr /i /v "c:\windows\\" |findstr /i /v """
 ```
 
@@ -295,7 +298,7 @@ Another way to enumerate unquoted service paths is through the use of the tool [
 
 #### Antivirus Enumeration
 
-```cmd
+```
 wmic /namespace:\\root\securitycenter2 path antivirusproduct
 ```
 #### AV Software Enumeration with Powershell
@@ -365,13 +368,13 @@ Get-CimInstance win32_service -Filter "Description = 'System Monitor service'"` 
 
 #### Check Windows Event Log for Sysmon
 
-```cmd
+```
 reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
 ```
 
 #### Search for Sysmon Configuration File
 
-```cmd
+```
 findstr /si '<ProcessCreate onmatch="exclude">' C:\tools\*
 ```
 
