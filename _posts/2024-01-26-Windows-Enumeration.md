@@ -203,9 +203,9 @@ Get-NetTCPConnection
 Get-NetNeighbor
 ```
 
-## User and Group Enumeration
+## Users and Groups Enumeration
 
-### User Information
+### Users Information
 
 ```powershell
 Get-LocalUser | Select *
@@ -228,7 +228,7 @@ Get-CimInstance -class Win32_UserAccount
 net users
 ```
 
-### User Home Folder List
+### Users Home Folder List
 
 ```powershell
 Get-ChildItem 'HKLM:\Software\Microsoft\Windows NT\CurrentVersion\ProfileList' | ForEach-Object { $_.GetValue('ProfileImagePath') }
@@ -262,9 +262,9 @@ qwinsta
 #### Sources
 - [https://github.com/tom0li/collection-document/blob/master/Blue%20Team%20Field%20Manual.pdf](https://github.com/tom0li/collection-document/blob/master/Blue%20Team%20Field%20Manual.pdf)
 
-## Service Enumeration
+## Services Enumeration
 
-### Service Enumeration via Powershell or cmd
+### Services Enumeration via Powershell or cmd
 
 #### Running Services
 
