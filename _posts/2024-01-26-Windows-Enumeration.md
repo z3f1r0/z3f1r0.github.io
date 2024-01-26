@@ -27,9 +27,7 @@ Get-CimInstance -query 'select * from win32_quickfixengineering' | foreach $_.ho
 
 Use the attribute `-description "Security update"` of `Get-Hotfix` to list only security updates.
 
-```cmd
-wmic qfe get Caption,Description,HotFixID,InstalledOn
-```
+`wmic qfe get Caption,Description,HotFixID,InstalledOn`
 
 #### Installed Drivers (requires elevated privileges)
 
