@@ -68,19 +68,19 @@ Get-ChildItem 'C:\Program Files', 'C:\Program Files (x86)'
 #### Desktop Data
 
 ```powershell
-Get-ChildItem 'C:\Users\<UTENTE>\Desktop\'
+Get-ChildItem 'C:\Users\<USER>\Desktop\'
 ```
 
 #### User Data and Documents
 
 ```powershell
-Get-ChildItem 'C:\Users\<UTENTE>\Documents\' 
+Get-ChildItem 'C:\Users\<USER>\Documents\' 
 ```
 
 #### '.lnk' Files
 
 ```powershell
-Get-ChildItem 'C:\Users\<UTENTE>\AppData\Roaming\Microsoft\Windows\Recent\*'
+Get-ChildItem 'C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Recent\*'
 ```
 #### Shared Folders
 
@@ -396,10 +396,6 @@ PS C:\> Invoke-EDRChecker -Remote <hostname>
 PS C:\> Invoke-EDRChecker -Remote <hostname> -Ignore
 ```
 
-#### Detection Risk
-
-It's a Powershell script, so an EDR might detect it (thanks to signatures like file name or hash) when it's copied onto the machine or when it's executed. It should be modified each time to decrease detection risk.
-
 #### Sources:
 
 - [https://github.com/PwnDexter/Invoke-EDRChecker/tree/master](https://github.com/PwnDexter/Invoke-EDRChecker/tree/master)
@@ -412,9 +408,6 @@ A new and improved C# implementation of Invoke-EDRChecker. Checks running proces
 .\SharpEDRChecker.exe
 run-exe SharpEDRChecker.Program SharpEDRChecker
 ```
-#### Detection Risk
-
-It's a C# executable, so an EDR might detect it (thanks to signatures like file name or hash) when it's copied onto the machine or when it's executed. It should be modified each time during compilation to decrease detection risk.
 
 #### Sources:
 
