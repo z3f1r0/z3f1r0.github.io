@@ -15,18 +15,14 @@ My name is Peter. <b>z3f1r0</b> is the nickname I use in Internet and it refers 
 I used this metaphor to indicate my nature’s oscillation in the real life like in my work: I often study network security techniques to defend computers systems but I also like discover 
 new types of vulnerabilities and offensive techniques in people and systems. <br>
 I work in cybersecurity and am passionate about both red and blue team activities.<br>
+<br>
 This is a personal space where I can keep my notes and express my interests. <br><br>
-
-- **My Linktree**: [https://linktr.ee/z3f1r0](https://linktr.ee/z3f1r0)
-
-  <div name="tryhackme"> 
-   <script src="https://tryhackme.com/badge/519455"> </script>
-  </div>
-
-<br>  
-  <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;">
 
 </div>
 
+- **My Linktree**: [https://linktr.ee/z3f1r0](https://linktr.ee/z3f1r0)
 
-<br><br>
+<br>
+<script src="https://tryhackme.com/badge/519455"> </script>
+<br>  
+<img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;">
