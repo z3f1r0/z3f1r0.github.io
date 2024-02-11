@@ -17,6 +17,8 @@ new types of vulnerabilities and offensive techniques in people and systems. <br
 I work in cybersecurity and am passionate about both red and blue team activities.<br>
 This is a personal space where I can keep my notes and express my interests. <br><br>
 
+- **My Linktree**: [https://linktr.ee/z3f1r0](https://linktr.ee/z3f1r0)
+
   <div name="tryhackme"> 
    <script src="https://tryhackme.com/badge/519455"> </script>
   </div>
