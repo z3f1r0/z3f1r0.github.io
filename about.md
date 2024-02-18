@@ -14,7 +14,7 @@ key: page-about
 
 My name is Peter and <i>z3f1r0</i> is the nickname I use in Internet and it refers to the Greek God of the West wind which blows like a sweet breeze in spring but became like a mighty storm in winter.
 I used this metaphor to indicate my nature’s oscillation in the real life like in my work: I often study network security techniques to defend computers systems but I also like discover 
-new types of vulnerabilities and offensive techniques in people and systems. 
+new types of vulnerabilities and offensive techniques. 
 <br><br>
 
 I work in cybersecurity and am passionate about both red and blue team activities.
