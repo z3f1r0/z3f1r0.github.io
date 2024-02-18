@@ -24,5 +24,8 @@ This is a personal space where I can keep my notes and express my interests. <br
 
 <script src="https://tryhackme.com/badge/519455"> </script>
 <br>
-<img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;">
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;margin-right:20px;">
+  <img width="100" height="100" src="assets/csi-badge.png" style="border-radius:50%;margin-left:20px;">
+</div>
