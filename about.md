@@ -12,7 +12,7 @@ key: page-about
 <cite>Like the west wind, I haven't yet understood whether I should be like a gentle breeze or a mighty storm.</cite> 
 <br><br>
 
-My name is <i>Peter</i> and <b>z3f1r0</b> is the nickname I use in Internet and it refers to the Greek God of the West wind which blows like a sweet breeze in spring but became like a mighty storm in winter.
+My name is Peter and <i>z3f1r0</i> is the nickname I use in Internet and it refers to the Greek God of the West wind which blows like a sweet breeze in spring but became like a mighty storm in winter.
 I used this metaphor to indicate my nature’s oscillation in the real life like in my work: I often study network security techniques to defend computers systems but I also like discover 
 new types of vulnerabilities and offensive techniques in people and systems. 
 <br><br>
