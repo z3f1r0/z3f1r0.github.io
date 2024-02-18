@@ -9,7 +9,7 @@ key: page-about
 
 <div name="introduction">
 
-<cite>Like the west wind I don’t understand yet if I should be like a gentle breeze or a mighty storm.</cite> 
+<cite>Like the west wind, I haven't yet understood whether I should be like a gentle breeze or a mighty storm.</cite> 
 <br><br>
 
 My name is <i>Peter</i> and <b>z3f1r0</b> is the nickname I use in Internet and it refers to the Greek God of the West wind which blows like a sweet breeze in spring but became like a mighty storm in winter.
