@@ -30,6 +30,7 @@ graph TD;
 2. **Detection & Analysis** - How to distinguish malicious activity from normal activity, and confirm the existence of a security incident so that appropriate individuals can begin to monitor and analyze the situation.
 3. **Containment, Eradication, Recovery** - Learning how to stop an incident from spreading, removing any malicious artifacts so that an attacker can no longer gain access to compromised systems, and working to fix any security flaws that were exploited or discovered as a result of the breach.
 4. **Post-Incident Activity** - Reflecting on the incident and learning from any strengths and weaknesses that were presented, so that a similar event doesn't occur in the future, or the team is better equipped and trained to respond.
+
 # Preparation
 
 Preparation is a crucial aspect of incident response. Without the right teams, resources, or documentation, the incident response process will not be optimal. Proper preparation can prevent attacks before they occur and consists of two main groups: incident preparedness and active incident prevention.
@@ -49,6 +50,7 @@ Activities for **active incident prevention** include:
 - A user awareness and training program.
 
 Although there's no perfect preparation phase for the incident response process, it's the first line of defense against potentially catastrophic damage.
+
 ## Incident Response Plan
 
 Incident response plans are crucial to ensure the response process is clear and defined, allowing responders to act swiftly. These plans must be continuously updated, and training must be regularly maintained so all employees involved in incident response are capable.
@@ -61,44 +63,50 @@ Incident response plans are crucial to ensure the response process is clear and 
 - Eradication
 - Recovery
 - Lessons Learned
+  
 ### Preparation
 
- This initial phase emphasizes the importance of meticulous planning and continuous training. It involves:
-    - Developing and testing response plans for various incidents.
-    - Ensuring the availability of necessary resources like hardware, software, and training.
-    - Continual training and performance evaluation of team members, including their specific roles ranging from security analysis to PR and communications.
+This initial phase emphasizes the importance of meticulous planning and continuous training. It involves:
+- Developing and testing response plans for various incidents.
+- Ensuring the availability of necessary resources like hardware, software, and training.
+- Continual training and performance evaluation of team members, including their specific roles ranging from security analysis to PR and communications.
+
 ### Identification
 
 This phase concentrates on recognizing and assessing an incident. Key considerations include:
-    - Determining the incident's specifics such as timing, discovery method, affected systems, operational impact, and overall scope.
-    - Assigning criticality and impact levels to prioritize response efforts, especially when dealing with multiple incidents.
+- Determining the incident's specifics such as timing, discovery method, affected systems, operational impact, and overall scope.
+- Assigning criticality and impact levels to prioritize response efforts, especially when dealing with multiple incidents.
+
 ### Containment
 
 Focuses on preventing further spread of the incident. This involves:  
-    - Implementing immediate actions like disconnecting compromised devices or shutting down systems.
-    - Considering the implications of containment actions on evidence preservation.
-    - Ensuring backups are available to replace affected systems without disrupting business operations.
+- Implementing immediate actions like disconnecting compromised devices or shutting down systems.
+- Considering the implications of containment actions on evidence preservation.
+- Ensuring backups are available to replace affected systems without disrupting business operations.
+
 ### Eradication
 
 Involves thoroughly analyzing the incident and eliminating threats. Steps include:
-    - Analyzing the incident using frameworks like MITRE ATT&CK and various analytical methods.
-    - Removing any harmful elements introduced during the incident.
-    - Strengthening defenses to prevent recurrence, utilizing collected indicators of compromise.
+- Analyzing the incident using frameworks like MITRE ATT&CK and various analytical methods.
+- Removing any harmful elements introduced during the incident.
+- Strengthening defenses to prevent recurrence, utilizing collected indicators of compromise.
+
 ### Recovery
 
 Aims to restore normal business operations. This involves:
-    - Ensuring that systems are clean and fortified before reintroduction into the production environment.
-    - Providing clear guidelines for restoring systems and ensuring their integrity.
+- Ensuring that systems are clean and fortified before reintroduction into the production environment.  
+- Providing clear guidelines for restoring systems and ensuring their integrity.
+  
 ### Lessons Learned
 
 Post-incident, this phase involves:
-    - Holding a meeting with all stakeholders to review the incident, focusing on what went well and what can be improved.
-    - Using insights from the incident to strengthen systems and response strategies, potentially leading to policy, procedural, or resource adjustments.
+- Holding a meeting with all stakeholders to review the incident, focusing on what went well and what can be improved.
+- Using insights from the incident to strengthen systems and response strategies, potentially leading to policy, procedural, or resource adjustments.
+
 ## Incident Response Teams
 
-### Why do we need them?
-
 A dedicated incident response team is crucial to properly respond to confirmed incidents and reduce the impact they have on the business, working to ensure continuity and reduce costs following a successful attack. By bringing together people with all the necessary skills, this team of specialists can be activated when an incident occurs, minimizing the time damage can be caused.
+
 ### Members of the incident response team
 
 - **Incident Manager**
@@ -109,11 +117,13 @@ A dedicated incident response team is crucial to properly respond to confirmed i
 - **Human Resources (HR)**
 - **Public Relations**
 - **Legal**
+
 ## Inventory & Risk Assessments
 
 To protect systems, we need to know what resources our organization actually has, so maintaining an updated inventory of assets can help monitor production systems, test environments, and other devices under our protection.
 
 While ideally, we'd protect all systems, sometimes protecting certain assets isn't feasible, and this is where risk assessments come into play. Using them, we can identify systems that hold high value for the company and thus require more protection compared to others. This is an important part of incident response: if multiple incidents occur simultaneously, it should be clear which incident has priority and whether the response should be immediate or can be delayed.
+
 ### Asset Inventory
 
 An asset inventory is a centralized and updated list of all IT resources within an organization. This typically includes:
@@ -124,6 +134,7 @@ An asset inventory is a centralized and updated list of all IT resources within 
 - Internet of Things (IoT) devices (such as heaters, TVs, alarms, vending machines, and anything connected to the network)
 - Network devices (firewall, switches, routers, ecc.)
 - Mobile devices
+
 ### Risk Assessment
 
 A risk assessment is conducted to identify the most critical systems for the company, thus the most valuable. These systems require enhanced protection and priority, especially in the event of two simultaneous incidents, as the definition of priorities must be clear so that time and resources are concentrated in the right place.
@@ -134,7 +145,9 @@ When risks are identified (such as a system connected to the Internet, a system 
 - **Accept the Risk** (a decision made not to spend resources because the impact would be low and the cost too high)
 - **Mitigate the Risk** (implement security and other controls to protect the asset and reduce the risk)
 - **Avoid the Risk** (an asset with too high a risk can simply be taken offline so it cannot be exploited)
+
 ## Security measures
+
 ### Host Defenses
 
 A list of instruments to ensure an optimal host defense tactic.
@@ -145,20 +158,22 @@ A list of instruments to ensure an optimal host defense tactic.
 - **Endpoint Detection & Response (EDR)**
 - **Local Firewall**
 - **Windows GPOs**
+
 ### Network Defenses
 
 A list of instruments to ensure an optimal network defense tactic.
 
-- **Network Intrusione Prevention/Protection Sysem**
-		- [Snort](https://www.snort.org/)
-		- [Suricata](https://suricata.io/)
-		- [Zeek](https://zeek.org/)
+- **Network Intrusione Prevention/Protection System**
+  - [Snort](https://www.snort.org/)
+  - [Suricata](https://suricata.io/)
+  - [Zeek](https://zeek.org/)
 - **Firewall**
-		- **Next Generation Firewall (NGFW)**
-		- **Web Application Firewall (WAF)**
+  - **Next Generation Firewall (NGFW)**
+  - **Web Application Firewall (WAF)**
 - **SIEM**
 - **Network Access Control (NAC)**
 - **Web Proxy**
+
 ### Email Defenses
 
 - **SPF, DKIM, DMARC**
@@ -177,9 +192,11 @@ In summary, activities to perform for preventing incidents:
 - **Network Security**
 - **Malware Prevention**
 - **User Awareness and Training**
+
 # Detection & Analysis
 
 The detection and analysis phase of Incident Response involves two sub-phases: **detection**, where tools like IDPs and antivirus software alert teams to incidents, and **analysis**, which requires understanding the attack's nature and spread. This phase is crucial for preparing incident responders, who must document findings, prioritize actions, and ensure proper communication, often outlined in a communication plan, with relevant internal and external parties. Once these steps are completed, responders move to the next phase of the Incident Response process.
+
 ### Attack Vectors
 
 Organizations should prepare for all incident types but focus on common attack vectors:
@@ -203,12 +220,12 @@ Detecting and evaluating incidents is challenging due to:
 
 Incident signs are categorized as _precursors_ (future incident signs) and _indicators_ (signs of a possible or ongoing incident). Precursors are rare, but when detected, allow organizations to alter security postures to prevent incidents. Indicators are common and include alerts from intrusion detection sensors, antivirus software, system administrators noticing unusual filenames, configuration changes, multiple failed login attempts, suspicious emails, and network traffic deviations.
 
-*Precursors*:
+***Precursors***:
 - Web server log showing vulnerability scanner activities
 - Announcement of a new exploit that could be affect your organization
 - Threat actor that could be attack 
 
-*Indicators*:
+***Indicators***:
 - Alert from an IDS showing a buffer overflow attempt to a database server
 - Antivirus software alert when a malware is detected
 - Sysadmin detect a filename with unusual characters
