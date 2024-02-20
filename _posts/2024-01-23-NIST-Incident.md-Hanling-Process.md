@@ -14,17 +14,7 @@ The **NIST (National Institute of Standards and Technology) Incident Handling Pr
 
 The NIST Incident Handling Process is divided into four main phases.
 
-```mermaid
-graph TD;
-    A[Preparation]
-    B[Detection & Analysis]
-    C[Containment, Eradication & Recovery]
-    D[Post-Incident Activity]
-    A --> B;
-    B --> C ---> B;
-    C --> D;
-    D --> A;
-```
+![](https://www.cynet.com/wp-content/uploads/2019/08/nist-incident-response-process-1.png)
 
 1. **Preparation** - Implementing network defenses, policies, procedures, and the need for an incident response team with sufficient resources.
 2. **Detection & Analysis** - How to distinguish malicious activity from normal activity, and confirm the existence of a security incident so that appropriate individuals can begin to monitor and analyze the situation.
