@@ -10,7 +10,7 @@ tags:
 - Blue Team
 ---
 
-The following list of commands can be used in a local Windows environment (**not in Active Directory**) to enumerate all useful information.
+The following list of commands can be used in a local Windows environment to enumerate all useful information.
 
 ## Windows Operating System Enumeration
 
