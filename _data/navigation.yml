@@ -10,6 +10,10 @@ header:
     url:        /about.html
 
 write-ups:
+  - title: BTLO Investigations
+    children:
+      - title:  SOC Alpha 1
+        url:    /writeups/socalpha1
   - title: BTLO Challenges
     children:
       - title:  Memory Analysis - Ransomware
