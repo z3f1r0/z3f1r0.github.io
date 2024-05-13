@@ -47,10 +47,10 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [CentralOps](https://centralops.net/){:target="_blank"}: Tool for domain and email check, ping, traceroute and more.
 - [IPVOID](https://www.ipvoid.com/){:target="_blank"}: Tools for network OSINT.
 
-## CVE Search
+## CVE Databases
 
-- [ExploitDB](https://www.exploit-db.com/){:target="_blank"}
-- [NIST CVE Database](https://nvd.nist.gov/vuln/search){:target="_blank"}
-- [CVE MITRE](https://cve.mitre.org/){:target="_blank"}
+- [ExploitDB](https://www.exploit-db.com/){:target="_blank"}: Exploit-DB is a widely recognized online public database and platform that provides information about security vulnerabilities, exploits, and their corresponding proof-of-concept code.
+- [NIST CVE Database](https://nvd.nist.gov/vuln/search){:target="_blank"}: The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP).
+- [CVE MITRE](https://cve.mitre.org/){:target="_blank"}: The mission of the CVE MITRE Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
 
 I will update this list.
