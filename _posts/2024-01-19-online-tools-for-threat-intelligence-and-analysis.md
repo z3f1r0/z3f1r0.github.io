@@ -46,10 +46,10 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [OSINT Framework](https://osintframework.com){:target="_blank"}: OSINT framework focused on gathering information from free tools or resources.
 - [CentralOps](https://centralops.net/){:target="_blank"}: Tool for domain and email check, ping, traceroute and more.
 - [IPVOID](https://www.ipvoid.com/){:target="_blank"}: Tools for network OSINT.
-- [ViewDNS.info](https://viewdns.info/): Tool suite for network OSINT.
-- [IPLocation](https://www.iplocation.net/): Geolocation for IP address.
-- [TinEye](https://tineye.com/): Reverse image search - find where images appear online.
-- [';--have i been pwned?](https://haveibeenpwned.com/): Check if your email address is in a data breach.
+- [ViewDNS.info](https://viewdns.info/){:target="_blank"}: Tool suite for network OSINT.
+- [IPLocation](https://www.iplocation.net/){:target="_blank"}: Geolocation for IP address.
+- [TinEye](https://tineye.com/){:target="_blank"}: Reverse image search - find where images appear online.
+- [';--have i been pwned?](https://haveibeenpwned.com/){:target="_blank"}: Check if your email address is in a data breach.
 
 ## CVE Databases
 
@@ -58,8 +58,8 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [CVE MITRE](https://cve.mitre.org/){:target="_blank"}: The mission of the CVE MITRE Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
 
 ## Some start.me OSINT pages
-- [OSINT](https://start.me/p/m6Kj56/osint)
-- [Cyber Investigation Research](https://start.me/p/8yN1wM/cyber-investigations-research)
-- [Email OSINT](https://start.me/p/b5gEPe/email-osint)
+- [OSINT](https://start.me/p/m6Kj56/osint){:target="_blank"}
+- [Cyber Investigation Research](https://start.me/p/8yN1wM/cyber-investigations-research){:target="_blank"}
+- [Email OSINT](https://start.me/p/b5gEPe/email-osint){:target="_blank"}
 
 I will update this list.
