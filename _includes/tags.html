@@ -1,10 +1,21 @@
-{%- assign _all_tags = site.tags | merge: site.writeups | sort -%}
+{%- assign _all_tags = site.tags -%}
+
+{%- for post in site.writeups -%}
+  {%- for tag in post.tags -%}
+    {%- if _all_tags[tag] -%}
+      {%- assign _all_tags = _all_tags | merge: { tag: _all_tags[tag] | plus: 1 } -%}
+    {%- else -%}
+      {%- assign _all_tags = _all_tags | merge: { tag: 1 } -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
 {%- assign _tag_max_size = 1 -%}
 {%- assign _tag_min_size = 1 -%}
 {%- assign _tag_cur_size = 1 -%}
 
 {%- for _tag in _all_tags -%}
-  {%- assign _tag_cur_size = _tag[1].size -%}
+  {%- assign _tag_cur_size = _tag[1] -%}
   {%- if _tag_cur_size > _tag_max_size -%}
     {%- assign _tag_max_size = _tag_cur_size -%}
   {%- endif -%}
@@ -22,11 +33,15 @@
   <ul class="menu">
     <li>
       <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
-        Show All<div class="tag-button__count">{{ site.posts | size }}</div>
+        Show All
+        <div class="tag-button__count">
+          {%- assign total_articles = site.posts | size | plus: site.writeups | size -%}
+          {{ total_articles }}
+        </div>
       </button>
     </li>
     {%- for _tag in _all_tags -%}
-      {%- assign _tag_cur_size = _tag[1].size -%}
+      {%- assign _tag_cur_size = _tag[1] -%}
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
       {%- assign _tag_min_2 = _tag_max_1 -%}
@@ -47,7 +62,7 @@
         {%- assign _c_index = 4 -%}
       {%- endif -%}
       <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-          <span>{{ _tag[0] | strip }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+          <span>{{ _tag[0] | strip }}</span><div class="tag-button__count">{{ _tag[1] }}</div>
         </button>
       </li>
     {%- endfor -%}
