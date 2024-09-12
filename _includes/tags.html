@@ -19,7 +19,12 @@
   <ul class="menu">
     <li>
       <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
-        Show All<div class="tag-button__count">{{ site.posts | size }}</div>
+        <!--- Show All<div class="tag-button__count">{{ site.posts | size }}</div> --->
+        Show All  
+        <div class="tag-button__count">
+        {%- assign total_articles = site.posts | size | plus: site.writeups | size -%}
+        {{ total_articles }}
+        </div>
       </button>
     </li>
     {%- for _tag in _tags -%}
