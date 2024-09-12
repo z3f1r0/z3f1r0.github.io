@@ -1,3 +1,7 @@
+{%- assign _total_posts = site.posts | size -%}
+{%- assign _total_writeups = site.writeups | size -%}
+{%- assign _total_items = _total_posts | plus: _total_writeups -%}
+
 {%- assign _tag_min_size = 1 -%}
 {%- assign _tag_cur_size = 1 -%}
 
@@ -29,7 +33,8 @@
   <ul class="menu">
     <li>
       <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
-        Show All<div class="tag-button__count">{{ site.posts | size | plus: site.writeups | size }}</div>
+        Show All
+        <div class="tag-button__count">{{ _total_items }}</div>
       </button>
     </li>
 
