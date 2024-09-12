@@ -1,20 +1,23 @@
-{%- assign _all_tags = site.tags | merge: site.writeups | sort -%}{%- assign _tag_max_size = 1 -%}
+{%- assign _all_tags = site.tags | merge: site.writeups | sort -%}
+{%- assign _tag_max_size = 1 -%}
 {%- assign _tag_min_size = 1 -%}
 {%- assign _tag_cur_size = 1 -%}
-{%- assign _tags = site.tags | sort -%}
-{%- for _tag in _tags -%}
+
+{%- for _tag in _all_tags -%}
   {%- assign _tag_cur_size = _tag[1].size -%}
   {%- if _tag_cur_size > _tag_max_size -%}
-    {%- assign _tag_max_size =  _tag_cur_size -%}
+    {%- assign _tag_max_size = _tag_cur_size -%}
   {%- endif -%}
   {%- if _tag_cur_size < _tag_min_size -%}
     {%- assign _tag_min_size = _tag_cur_size -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign _tag_gap_size =  _tag_max_size | minus: _tag_min_size | plus: 1 | divided_by: 4 -%}
+
+{%- assign _tag_gap_size = _tag_max_size | minus: _tag_min_size | plus: 1 | divided_by: 4 -%}
 {%- if _tag_gap_size < 1 -%}
   {%- assign _tag_gap_size = 1 -%}
 {%- endif -%}
+
 <div class="site-tags js-tags">
   <ul class="menu">
     <li>
@@ -22,7 +25,7 @@
         Show All<div class="tag-button__count">{{ site.posts | size }}</div>
       </button>
     </li>
-    {%- for _tag in _tags -%}
+    {%- for _tag in _all_tags -%}
       {%- assign _tag_cur_size = _tag[1].size -%}
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
