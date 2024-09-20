@@ -5,8 +5,6 @@ aside:
   toc: true
 tags:
 - OSINT
-- Threat Analysis
-- Threat Intelligence
 ---
 
 In today's digital age, cybersecurity threats are increasingly complex and sophisticated and a member of a Blue Team has to know analyze them rapidly. 
