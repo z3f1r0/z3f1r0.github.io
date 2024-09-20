@@ -4,6 +4,7 @@ title: NIST Incident Handling Process
 aside:
   toc: true
 tags:
+- Blog
 - DFIR
 - Incident Response
 ---
