@@ -4,10 +4,8 @@ title: Windows Enumeration
 aside:
   toc: true
 tags:
+- Blog
 - Windows
-- Enumeration
-- Red Team
-- Blue Team
 ---
 
 The following list of commands can be used in a local Windows environment to enumerate all useful information.
