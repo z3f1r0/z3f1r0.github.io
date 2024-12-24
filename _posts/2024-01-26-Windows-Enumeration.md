@@ -1,4 +1,4 @@
----
+fute---
 layout: article
 title: Windows Enumeration
 aside:
@@ -210,7 +210,7 @@ Get-LocalUser | Select *
 ```
 
 ```
-net user "<UTENTE>"
+net user <USER>
 ```
 ### Local Users
 
