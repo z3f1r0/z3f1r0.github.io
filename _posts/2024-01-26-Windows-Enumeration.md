@@ -1,4 +1,4 @@
-fute---
+---
 layout: article
 title: Windows Enumeration
 aside:
