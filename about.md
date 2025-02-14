@@ -13,8 +13,7 @@ key: page-about
 <br><br>
 
 My name is Peter and <i>z3f1r0</i> is the nickname I use in the cyberspace. It refers to the Greek God of the west wind which blows like a sweet breeze in spring but become like a mighty storm in winter.
-I used this metaphor to indicate my nature’s oscillation in the real life like in my work: I often study network security techniques to defend computer systems but I also like discover 
-new types of vulnerabilities and offensive techniques. 
+I used this metaphor to describe philosophically my natural fluctuation in the real life such as in my job: I often study network security techniques to defend computer systems but I also like discover new types of vulnerabilities and offensive security techniques.
 <br><br>
 
 I work in cybersecurity and am passionate about both red and blue team activities.
