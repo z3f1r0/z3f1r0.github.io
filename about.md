@@ -29,3 +29,5 @@ This is a personal space where I can keep my notes and express my interests.
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;margin-right:20px;">
+  <img width="100" height="100" src="assets/geir.png" style="border-radius:50%;margin-right:20px;">
+
