@@ -24,7 +24,7 @@ title: ETHQuery
     <div class="container">
 
         <fieldset>
-            <legend align="center"><img src="/assets/img/eth.png" width="150" height="150"></legend>
+            <legend align="center"><img src="/assets/img/eth.png" alt="ETH logo" width="150" height="150"></legend>
             <legend><h2>Ethereum Blockchain Query</h2></legend>
                 <h4>Insert an Ethereum wallet addres and receive transactions information</h4>
 

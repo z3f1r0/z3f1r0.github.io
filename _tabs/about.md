@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 6
 ---
 <!-- Right alignment! -->
-<img align="right" width="210" height="200" src="assets/goddd.jpg" style="border-radius:50%;">
+<img align="right" width="210" height="200" src="assets/goddd.jpg" alt="Profile Image" style="border-radius:50%;">
 
 <div name="introduction">
 
@@ -27,5 +27,5 @@ This is a personal space where I can keep my notes and express my interests.
 <br>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img width="100" height="100" src="assets/btl1.png" style="border-radius:50%;margin-right:20px;">
-  <img width="100" height="100" src="assets/geir.png" style="border-radius:50%;margin-right:20px;">
+  <img width="100" height="100" src="assets/btl1.png" alt="BTL1 logo" style="border-radius:50%;margin-right:20px;">
+  <img width="100" height="100" src="assets/geir.png" alt="GEIR logo" style="border-radius:50%;margin-right:20px;">
