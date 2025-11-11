@@ -1,8 +1,7 @@
 ---
-icon: fa fa-wrench
-order: 4
+icon: fa-brands fa-ethereum
+order: 3
 title: ETHQuery
-tag: Projects
 ---
 
 <br>
@@ -12,9 +11,11 @@ tag: Projects
 <head>
   <br>
     <title>ETHQuery</title>
+    <!-- Right alignment! 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/assets/eth.png" type="image/icon type">
+    <link rel="icon" href="/assets/img/eth.png" type="image/icon type">
+    -->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
@@ -23,7 +24,7 @@ tag: Projects
     <div class="container">
 
         <fieldset>
-            <legend align="center"><img src="/assets/eth.png" width="150" height="150"></legend>
+            <legend align="center"><img src="/assets/img/eth.png" width="150" height="150"></legend>
             <legend><h2>Ethereum Blockchain Query</h2></legend>
                 <h4>Insert an Ethereum wallet addres and receive transactions information</h4>
 
