@@ -16,11 +16,11 @@ timezone: Europe/Rome
 
 title: z3f1r0 # the main title
 
-tagline: cybersecurity stuff...
+tagline: cybersecurity stuff
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  A personal blog.
+  
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://z3f1r0.github.io"
@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: z3f1r0
-  email: example@domain.com # change to your email address
+  email: z3f1r0@protonmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/z3f1r0_ # change to your Twitter homepage
+    - https://github.com/z3f1r0 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
