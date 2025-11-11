@@ -5,7 +5,7 @@ image:
   path: /assets/img/memoryanalysis-ransomware/wanna.png
 permalink: /writeups/memory-analysis-ransomware
 categories: [Write-Ups, BTLO, Challenges]
-tags: [BTLO, DFIR]
+tags: [BTLO, DFIR, volatility]
 ---
 
 ## Scenario
