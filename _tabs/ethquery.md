@@ -1,9 +1,20 @@
 ---
-layout: no-panel
 icon: fa-brands fa-ethereum
 order: 3
 title: ETHQuery
 ---
+
+<!-- CSS per rimuovere la sidebar/panel di destra -->
+<style>
+#panel-wrapper {
+  display: none !important;
+}
+
+main[aria-label="Main Content"] {
+  flex: 1 0 100% !important;
+  max-width: 100% !important;
+}
+</style>
 
 <br>
 > [ETHQuery](https://github.com/z3f1r0/ETHQuery) is a simple client-side web application that performs queries upon Ethereum blockchain to receive transactions information of a wallet address thanks to [Alchemy](https://www.alchemy.com/) free API.
