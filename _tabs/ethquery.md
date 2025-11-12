@@ -86,7 +86,7 @@ title: ETHQuery
     <div id="pageNavPosition" class="pager-nav"></div>
 
     <!-- Script -->
-<script src="/includes/scripts/script-eth.js"></script>
+<script src="/assets/scripts/script-eth.js"></script>
 </body>
 
 </html>
