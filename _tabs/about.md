@@ -16,9 +16,10 @@ I used this metaphor to describe philosophically my natural fluctuation in the r
 <br><br>
 
 I work in cybersecurity and I am passionate about both red and blue team activities.
-<br>
+<br><br>
+
 This is a personal space where I can keep a partial collection of my notes, personal thoughts and projects I've worked on. 
-<br>
+<br><br>
 
 </div>
 
