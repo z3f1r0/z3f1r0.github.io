@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="main-wrapper" class="d-flex justify-content-center">
+  <div class="container d-flex flex-column px-xxl-5">
+    <header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
+      {% include topbar.html %}
+    </header>
+    <div class="row flex-grow-1">
+      <main aria-label="Main Content" class="col-12 col-lg-11 px-md-4">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+</div>
