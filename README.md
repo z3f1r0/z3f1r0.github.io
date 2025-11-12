@@ -1,7 +1,7 @@
 # z3f1r0.github.io
 
 Welcome — this is my personal blog and projects site.  
-Here I keep a partial collection of notes, personal thoughts and projects related to digital forensics, incident response, blue-team and red-team exercises and general cybersecurity research.  
+Here I keep a partial collection of notes, personal thoughts and projects related to digital forensics, incident response, blue/red-team exercises and general cybersecurity research.  
 I also participate in practical labs and challenges on [TryHackMe](https://tryhackme.com/p/z3f1r0) and [Blue Team Labs Online](https://blueteamlabs.online/public/user/d80a8e43499452fa0bd09b).
 
 ---
