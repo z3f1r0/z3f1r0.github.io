@@ -1,5 +1,4 @@
 ---
-layout: default
 icon: fa-brands fa-ethereum
 order: 3
 title: ETHQuery
