@@ -1,8 +1,8 @@
 ---
+layout: no-panel
 icon: fa-brands fa-ethereum
 order: 3
 title: ETHQuery
-panel: false
 ---
 
 <br>
