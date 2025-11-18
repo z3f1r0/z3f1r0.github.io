@@ -43,6 +43,7 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [OSINT Framework](https://osintframework.com){:target="_blank"}: OSINT framework focused on gathering information from free tools or resources.
 - [CentralOps](https://centralops.net/){:target="_blank"}: Tool for domain and email check, ping, traceroute and more.
 - [IPVOID](https://www.ipvoid.com/){:target="_blank"}: Tools for network OSINT.
+- [Dig Web Interface](https://digwebinterface.com/){:target="_blank"}: DigWebInterface.com is an online DNS lookup tool that provides a web-based interface for the dig command, commonly used for querying DNS records.
 - [ViewDNS.info](https://viewdns.info/){:target="_blank"}: Tool suite for network OSINT.
 - [IPLocation](https://www.iplocation.net/){:target="_blank"}: Geolocation for IP address.
 - [TinEye](https://tineye.com/){:target="_blank"}: Reverse image search - find where images appear online.
