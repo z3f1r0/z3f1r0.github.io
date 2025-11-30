@@ -2,6 +2,7 @@
 title: The Genesis of "Cyber"
 date: 2023-11-25
 categories: [Blog]
+tags: [Blog]
 ---
 
 The term "cyber" has a fascinating history that spans various languages and disciplines over time.

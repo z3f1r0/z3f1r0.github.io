@@ -2,7 +2,7 @@
 title: NIST Incident Handling Process
 date: 2024-01-23
 categories: [Blog]
-tags: [DFIR]
+tags: [Blog, DFIR]
 ---
 
 # Introduction

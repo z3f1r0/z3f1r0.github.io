@@ -2,9 +2,9 @@
 title: Working with GitHub Repositories in VSCode Dev Containers
 date: 2025-11-30
 image:
-  path: /assets/img/blog/git_vscode_devcontainer.png
+  path: assets/img/blog/git_vscode_devcontainer.png
 categories: [Blog]
-tags: [git]
+tags: [Blog, git]
 ---
 
 # 🚀 Workflow: Clone → Develop → Commit → Push using VSCode Dev Containers
@@ -19,8 +19,7 @@ Objectives:
 5. Official references  
 6. (Bonus) Git basics and how to run a Jekyll site locally
 
----
-# 🧩 1. Prerequisites
+## 🧩 1. Prerequisites
 
 Make sure you have the following installed:
 
@@ -32,16 +31,18 @@ Make sure you have the following installed:
 
 ✔ VSCode Extension: **Dev Containers**  
 <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>
-# 🐳 2. Open a GitHub Repository in a Dev Container
+
+## 🐳 2. Open a GitHub Repository in a Dev Container
 
 There are multiple ways to do this, but the simplest and most recommended is:
-## ✅ Recommended Method: *“Clone Repository in Container Volume…”*
+
+### ✅ Recommended Method: *“Clone Repository in Container Volume…”*
 
 1. Open **VSCode**  
 2. Press **F1** and search for:  
    **Dev Containers: Clone Repository in Container Volume…**
 3. Enter the URL of your GitHub repository  
-   Example:  https://github.com/z3f1r0/z3f1r0.github.io
+   Example:  `https://github.com/z3f1r0/z3f1r0.github.io`
 4. VSCode will automatically:
 	- clone the repository into a Docker volume  
 	- create the container environment  
@@ -49,7 +50,8 @@ There are multiple ways to do this, but the simplest and most recommended is:
 
 🔗 Official docs:  
 [https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment](https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment)
-# 🧱 3. Working Inside the Dev Container
+
+## 🧱 3. Working Inside the Dev Container
 
 Once the environment loads:
 - You are working **inside the container's filesystem**, not on your host machine  
@@ -59,7 +61,8 @@ Once the environment loads:
 You can verify that you're inside the container by checking the bottom-left status bar: 
 
 **Bottom-left corner → Dev Container: *name***
-# 🔧 4. Commit & Push from Inside the Container
+
+## 🔧 4. Commit & Push from Inside the Container
 
 Make sure Git is configured (only needed the first time):
 
@@ -69,6 +72,7 @@ git config --global user.email "you@example.com"
 ```
 
 Open the **terminal inside the container** and run:
+
 ### 1. Stage changes
 ```bash
 git add .
@@ -84,6 +88,7 @@ git push
 
 If it’s the first push, GitHub may request authentication:  
 VSCode will automatically handle OAuth login in your browser.
+
 ### GUI alternative (VSCode)
 
 - Left sidebar → **Source Control**
@@ -95,13 +100,14 @@ VSCode will automatically handle OAuth login in your browser.
 🔗 Useful docs:  
 [https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github)  
 [https://docs.github.com/en/get-started/using-git/about-git](https://docs.github.com/en/get-started/using-git/about-git)
-# 🔁 5. Rebuild the Container (Optional)
+
+## 🔁 5. Rebuild the Container (Optional)
 
 If you modify your Dev Container configuration (`.devcontainer/devcontainer.json`):
 
-Press **F1** →  
-**Dev Containers: Rebuild Container**
-# 🧨 6. Recommended Dev Container Structure (Example)
+Press **F1** → **Dev Containers: Rebuild Container**
+
+## 🧨 6. Recommended Dev Container Structure (Example)
 
 Create a folder in your repo:
 
@@ -114,8 +120,7 @@ Minimal example:
 🔗 JSON reference:  
 [https://containers.dev/implementors/json_reference/](https://containers.dev/implementors/json_reference/)
 
----
-# 📚 Official References
+## 📚 Official References
 
 ### • Dev Containers (Microsoft)
 [https://code.visualstudio.com/docs/devcontainers/containers](https://code.visualstudio.com/docs/devcontainers/containers)
@@ -124,8 +129,7 @@ Minimal example:
 ### • Docker
 [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
 
----
-# 🧩 Git: Useful Commands
+## 🧩 Git: Useful Commands
 
 ### Update your local work with remote changes (safe mode)
 
@@ -146,8 +150,7 @@ git status
 git commit -m "Update" 
 git push origin main
 ```
----
-# 📝 Run a Jekyll Site Locally
+## 📝 Run a Jekyll Site Locally
 
 If your blog uses **Jekyll + GitHub Pages**, run:
 

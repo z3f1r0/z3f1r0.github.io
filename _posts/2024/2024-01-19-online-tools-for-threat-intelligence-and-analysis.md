@@ -2,7 +2,7 @@
 title: Online Tools for Threat Analysis
 date: 2024-01-19
 categories: [Blog]
-tags: [OSINT]
+tags: [Blog, OSINT]
 ---
 
 In today's digital age, cybersecurity threats are increasingly complex and sophisticated and a member of a Blue Team has to know analyze them rapidly. 
