@@ -49,6 +49,7 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [TinEye](https://tineye.com/){:target="_blank"}: Reverse image search - find where images appear online.
 - [';--have i been pwned?](https://haveibeenpwned.com/){:target="_blank"}: Check if your email address is in a data breach.
 - [Intelligence X](https://intelx.io/){:target="_blank"}: Search engine and data archive specialized in searching various data sources, including the darknet, document sharing platforms, whois data, public data leaks, and more.
+- [Data Breach](https://databreach.com/){:target="_blank"}: Check if your email address and/or telephone number are in a data breach.
 
 ## CVE Databases
 
