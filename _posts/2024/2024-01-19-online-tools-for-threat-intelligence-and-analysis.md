@@ -50,6 +50,7 @@ The following online tools are used mostly for Threat Intelligence activities an
 - [';--have i been pwned?](https://haveibeenpwned.com/){:target="_blank"}: Check if your email address is in a data breach.
 - [Intelligence X](https://intelx.io/){:target="_blank"}: Search engine and data archive specialized in searching various data sources, including the darknet, document sharing platforms, whois data, public data leaks, and more.
 - [Data Breach](https://databreach.com/){:target="_blank"}: Check if your email address and/or telephone number are in a data breach.
+- [crt.sh](crt.sh){:target="_blank"}: crt.sh is a Certificate Transparency (CT) log search tool that allows users to find SSL/TLS certificates issued for specific domains or organizations.
 
 ## CVE Databases
 
