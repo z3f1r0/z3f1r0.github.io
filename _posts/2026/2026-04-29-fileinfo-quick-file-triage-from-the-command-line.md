@@ -9,7 +9,7 @@ During Blue Team CTFs and DFIR activities, I often found myself needing immediat
 
 It provides filename, full path, size, timestamps, and multiple hashes (SHA256, SHA1, MD5) in a simple way perfect for fast triage and forensic workflows.
 
-👉 GitHub: https://github.com/z3f1r0/fileinfo
+👉 GitHub: [https://github.com/z3f1r0/fileinfo](https://github.com/z3f1r0/fileinfo)
 
 ---
 
