@@ -5,7 +5,7 @@ categories: [Projects]
 tags: [Blog, tools, DFIR]
 ---
 
-During Blue Team CTFs and DFIR activities, I often found myself needing immediate access to file hashes and essential metadata. To streamline this process, I built FileInfo — a lightweight cross-platform toolkit (Bash and PowerShell) to quickly extract key information and generate IoCs from any file.
+During Blue Team CTFs and DFIR activities, I often found myself needing immediate access to file hashes and essential metadata. To streamline this process, I built [FileInfo](https://github.com/z3f1r0/fileinfo) — a lightweight cross-platform toolkit (Bash and PowerShell) to quickly extract key information and generate IoCs from any file.
 
 It provides filename, full path, size, timestamps, and multiple hashes (SHA256, SHA1, MD5) in a simple way perfect for fast triage and forensic workflows.
 
