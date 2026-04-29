@@ -1,5 +1,5 @@
 ---
-title: FileInfo: Quick File Triage from the Command Line
+title: FileInfo - Quick File Triage from the Command Line
 date: 2026-04-29
 categories: [Projects]
 tags: [Blog, tools, DFIR]
