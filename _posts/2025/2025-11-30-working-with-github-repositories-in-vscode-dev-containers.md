@@ -7,7 +7,7 @@ categories: [Blog]
 tags: [Blog, git]
 ---
 
-# 🚀 Workflow: Clone → Develop → Commit → Push using VSCode Dev Containers
+# Workflow: Clone → Develop → Commit → Push using VSCode Dev Containers
 
 This guide explains how to work with a GitHub repository (e.g., a GitHub Pages blog) using **Visual Studio Code Dev Containers** for a clean, isolated, reproducible development environment.
 
@@ -19,24 +19,24 @@ Objectives:
 5. Official references  
 6. (Bonus) Git basics and how to run a Jekyll site locally
 
-## 🧩 1. Prerequisites
+## 1. Prerequisites
 
 Make sure you have the following installed:
 
 ✔ **Docker Desktop**  
-<https://www.docker.com/products/docker-desktop/>
+<https://www.docker.com/products/docker-desktop/>{:target="_blank"}
 
 ✔ **Visual Studio Code**  
-<https://code.visualstudio.com/>
+<https://code.visualstudio.com/>{:target="_blank"}
 
 ✔ VSCode Extension: **Dev Containers**  
-<https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>
+<https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers>{:target="_blank"}
 
-## 🐳 2. Open a GitHub Repository in a Dev Container
+## 2. Open a GitHub Repository in a Dev Container
 
 There are multiple ways to do this, but the simplest and most recommended is:
 
-### ✅ Recommended Method: *“Clone Repository in Container Volume…”*
+### Recommended Method: *“Clone Repository in Container Volume…”*
 
 1. Open **VSCode**  
 2. Press **F1** and search for:  
@@ -48,10 +48,10 @@ There are multiple ways to do this, but the simplest and most recommended is:
 	- create the container environment  
 	- open the project *inside* the container  
 
-🔗 Official docs:  
-[https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment](https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment)
+Official docs:  
+[https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment](https://code.visualstudio.com/docs/devcontainers/containers#_use-a-docker-container-as-a-development-environment){:target="_blank"}
 
-## 🧱 3. Working Inside the Dev Container
+## 3. Working Inside the Dev Container
 
 Once the environment loads:
 - You are working **inside the container's filesystem**, not on your host machine  
@@ -62,7 +62,7 @@ You can verify that you're inside the container by checking the bottom-left stat
 
 **Bottom-left corner → Dev Container: *name***
 
-## 🔧 4. Commit & Push from Inside the Container
+## 4. Commit & Push from Inside the Container
 
 Make sure Git is configured (only needed the first time):
 
@@ -97,17 +97,17 @@ VSCode will automatically handle OAuth login in your browser.
 - Click **✔** to commit
 - Click **↗** to push
 
-🔗 Useful docs:  
-[https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github)  
-[https://docs.github.com/en/get-started/using-git/about-git](https://docs.github.com/en/get-started/using-git/about-git)
+Useful docs:  
+[https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github){:target="_blank"}
+[https://docs.github.com/en/get-started/using-git/about-git](https://docs.github.com/en/get-started/using-git/about-git){:target="_blank"}
 
-## 🔁 5. Rebuild the Container (Optional)
+## 5. Rebuild the Container (Optional)
 
 If you modify your Dev Container configuration (`.devcontainer/devcontainer.json`):
 
 Press **F1** → **Dev Containers: Rebuild Container**
 
-## 🧨 6. Recommended Dev Container Structure (Example)
+## 6. Recommended Dev Container Structure (Example)
 
 Create a folder in your repo:
 
@@ -117,19 +117,19 @@ Minimal example:
 
 `{   "name": "Blog Dev Container",   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",   "features": {},   "postCreateCommand": "npm install" }`
 
-🔗 JSON reference:  
-[https://containers.dev/implementors/json_reference/](https://containers.dev/implementors/json_reference/)
+JSON reference:  
+[https://containers.dev/implementors/json_reference/](https://containers.dev/implementors/json_reference/){:target="_blank"}
 
-## 📚 Official References
+## Official References
 
 ### • Dev Containers (Microsoft)
-[https://code.visualstudio.com/docs/devcontainers/containers](https://code.visualstudio.com/docs/devcontainers/containers)
+[https://code.visualstudio.com/docs/devcontainers/containers](https://code.visualstudio.com/docs/devcontainers/containers){:target="_blank"}
 ### • GitHub – Git
-[https://docs.github.com/en/get-started/using-git](https://docs.github.com/en/get-started/using-git)
+[https://docs.github.com/en/get-started/using-git](https://docs.github.com/en/get-started/using-git){:target="_blank"}
 ### • Docker
-[https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
+[https://docs.docker.com/get-started/](https://docs.docker.com/get-started/){:target="_blank"}
 
-## 🧩 Git: Useful Commands
+## Git: Useful Commands
 
 ### Update your local work with remote changes (safe mode)
 
@@ -150,7 +150,7 @@ git status
 git commit -m "Update" 
 git push origin main
 ```
-## 📝 Run a Jekyll Site Locally
+## Run a Jekyll Site Locally
 
 If your blog uses **Jekyll + GitHub Pages**, run:
 
