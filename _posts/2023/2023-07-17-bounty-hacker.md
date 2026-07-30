@@ -4,7 +4,7 @@ date: 2023-07-17
 image:
   path: https://miro.medium.com/v2/resize:fit:828/format:webp/0*pSY-gfbX6aNhVPeQ.jpeg
 categories: [Write-Ups, TryHackMe]
-tags: [TryHackMe, nmap, hydra]
+tags: [tryhackme, nmap, hydra]
 ---
 
 ## Introduction

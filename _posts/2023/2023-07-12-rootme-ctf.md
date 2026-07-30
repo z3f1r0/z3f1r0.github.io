@@ -2,7 +2,7 @@
 title: RootMe CTF
 date: 2023-07-12
 categories: [Write-Ups, TryHackMe]
-tags: [TryHackMe, nmap, gobuster]
+tags: [tryhackme, nmap, gobuster]
 ---
 
 ## Reconnaissance

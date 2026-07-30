@@ -2,7 +2,7 @@
 title: Windows Enumeration
 date: 2024-01-26
 categories: [Blog]
-tags: [Blog, Windows, Discovery]
+tags: [blog, windows, discovery, cheet-sheet]
 ---
 
 The following list of commands can be used in a local Windows environment to enumerate all useful information.

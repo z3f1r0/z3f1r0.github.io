@@ -5,7 +5,7 @@ image:
   path: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8XBsRa-TGb1pIQyD5nGmbgIzTgxS6OG_Vnw&usqp=CAU
 permalink: /writeups/log-analysis-compromised-wordpress
 categories: [Write-Ups, BTLO, Challenges]
-tags: [BTLO, DFIR]
+tags: [btlo, dfir]
 ---
 
 ## Scenario

@@ -4,7 +4,7 @@ date: 2023-01-30
 image: 
   path: https://tryhackme.com/img/favicon.png
 categories: [Write-Ups, TryHackMe]
-tags: [TryHackMe, DFIR, volatility]
+tags: [tryhackme, dfir, volatility]
 ---
 
 Room link --> [https://tryhackme.com/room/forensics](https://tryhackme.com/room/forensics){:target="_blank"}.

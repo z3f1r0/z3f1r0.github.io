@@ -3,7 +3,7 @@ title: Malicious Powershell Analysis
 date: 2023-02-08
 cover: https://miro.medium.com/max/786/0*Q-sW75vMp0rrOuv_.webp
 categories: [Write-Ups, BTLO, Challenges]
-tags: [BTLO, DFIR, powershell]
+tags: [btlo, dfir, powershell]
 ---
 
 For this challenge I used [CyberChef](https://gchq.github.io/CyberChef/).

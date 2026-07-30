@@ -4,7 +4,7 @@ date: 2023-05-29
 image: 
   path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wireshark_icon.svg/1200px-Wireshark_icon.svg.png
 categories: [Write-Ups, BTLO, Challenges]
-tags: [BTLO, DFIR, webshell, wireshark]
+tags: [btlo, dfir, webshell, wireshark]
 ---
 
 ## Scenario

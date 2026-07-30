@@ -5,7 +5,7 @@ image:
   path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wireshark_icon.svg/1200px-Wireshark_icon.svg.png
 permalink: /writeups/network-analysis-ransomware
 categories: [Write-Ups, BTLO, Challenges]
-tags: [BTLO, DFIR]
+tags: [btlo, dfir]
 ---
 
 ## Scenario

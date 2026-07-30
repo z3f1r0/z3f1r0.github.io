@@ -4,7 +4,7 @@ date: 2025-11-30
 image:
   path: assets/img/blog/git_vscode_devcontainer.png
 categories: [Blog]
-tags: [Blog, git]
+tags: [blog, git]
 ---
 
 # Workflow: Clone → Develop → Commit → Push using VSCode Dev Containers
