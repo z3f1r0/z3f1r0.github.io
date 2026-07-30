@@ -4,7 +4,7 @@ date: 2023-05-26
 image: 
    path: https://cdn.pixabay.com/photo/2020/10/22/01/46/cryptocurrency-5674685_1280.png
 categories: [Write-Ups, BTLO, Challenges]
-tags: [btlo, dfir cryptominer]
+tags: [btlo, dfir, cryptominer]
 ---
 
 ## Scenario
