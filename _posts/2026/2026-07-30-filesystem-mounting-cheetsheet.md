@@ -4,7 +4,7 @@ date: 2026-07-30
 image:
   path: assets/img/blog/filesystem_evidence.png
 categories: [Blog]
-tags: [blog, linux, dfir, digital-forensics, disk-imaging, filesystem-mounting, lvm, ewf-e01, disk-encryption, proxmox, cheat-sheet]
+tags: [blog, linux, dfir, dislocker, disk-imaging, filesystem-mounting, lvm, ewf, ewfmount, e01, qemu, guestmount, proxmox, cheat-sheet]
 ---
 
 > A consolidated reference for mounting disk images, virtual disks and forensic
